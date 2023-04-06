@@ -1,0 +1,427 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+AndroidGodEye,cn.hikyson.godeye.core,GodEye,install,Complex Method
+AndroidGodEye,cn.hikyson.godeye.core,GodEye,install,Long Method
+AndroidGodEye,cn.hikyson.godeye.core,GodEye,install,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEye,observeModule,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeConfig,fromInputStream,Complex Method
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeConfig,fromInputStream,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeConfig,fromInputStream,Long Method
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeConfig,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelper,setMonitorAppInfoConext,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelper,startMonitor,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelper,shutdownMonitor,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeInitContentProvider,onCreate,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeInitContentProvider,query,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeConfigTest,assertConfig,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeConfigTest,assertConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onPageLoadedCannotBeNull,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onPageLoadedNotInstalled,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onPageLoadedWhenNotCreated,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,test,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onPageLoadedSuccessForActivity,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onPageLoadedSuccessForActivity,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onPageLoadedSuccessWithFragment,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onPageLoadedSuccessWithFragment,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onFragmentPageVisibilityChangeSuccess,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onFragmentPageVisibilityChangeSuccess,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onFragmentPageVisibilityChangeSuccessV4,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onFragmentPageVisibilityChangeSuccessV4,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onFragmentPageVisibilityChangeWhenIllegal,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onAppStartEndWhenNotInstalled,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onAppStartEndWhenNull,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onAppStartEndSuccess,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onNetworkEndWhenNotInstalled,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,onNetworkEndWhenNull,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,startMethodCanaryRecordingWhenNotInstalled,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,stopMethodCanaryRecordingWhenNotInstalled,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeHelperTest,isMethodCanaryRecordingWhenNotInstalled,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeInitContentProviderTest,action,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeTest,installAndUninstallInAnyThread,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeTest,getModule,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeTest,moduleObservable,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeTest,observeModule,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeTest,observeModule,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeTest,installNotificationMultiThread,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core,GodEyeTest,run,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.helper,CrashStore,storeCrash,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.helper,CrashStore,restoreCrash,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.helper,CrashStore,makeSureCrashDir,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.helper,Notifier,create,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.helper,AndroidDebugTest,isDebugging,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.helper,AndroidDebugTest,isDebugging,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.helper,NotifierTest,notice,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.helper,NotifierTest,notice,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.helper,Test4ImageActivity,onCreate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.helper,TestLeak0Activity,onCreate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.helper,TestViewCanaryActivity,onCreate,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.helper,TestViewCanaryFragment,layoutChange,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.appsize,AppSize,install,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.appsize,AppSize,onGetSize,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.appsize,AppSizeUtil,formatSize,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.appsize,AppSizeTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.appsize,AppSizeTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.appsize,AppSizeTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.appsize,AppSizeUtilTest,getAppSizeLowerO,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.appsize,AppSizeUtilTest,formatSize,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.battery,BatteryInfo,BatteryInfo,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.battery,BatteryInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.battery,BatteryTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.battery,BatteryTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.battery,BatteryTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuConfig,CpuConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuEngine,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuInfo,CpuInfo,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuInfo,toString,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuSnapshot,CpuSnapshot,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsage,getCpuInfo,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsage,parse,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsage,parse,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsage,getCpuInfoFromShell,Complex Conditional
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsage,getCpuInfoFromShell,Complex Method
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsage,parseCpuRateOfDeviceAndTotalByShell,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parse,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parse,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parse,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parseCpuRateOfAppByShell,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parseCpuRateOfAppByShell,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parseCpuRateOfDeviceAndTotalByShell,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parseCpuRateOfDeviceAndTotalByShell,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parseCPUIndex,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.cpu,CpuUsageTest,parseCPUIndex,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.crash,Crash,install,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.crash,CrashInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.crash,CrashTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.crash,CrashTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.crash,CrashTest,test,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.crash,CrashTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.fps,FpsConfig,FpsConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.fps,FpsEngine,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.fps,FpsMonitor,exportThenReset,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.fps,FpsTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.fps,FpsTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,DefaultImageCanaryConfigProvider,isBitmapQualityTooHigh,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,DefaultImageCanaryConfigProvider,isBitmapQualityTooLow,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanary,install,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryInternal,start,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryInternal,onActivityResumed,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryInternal,recursiveLoopChildren,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryInternal,recursiveLoopChildren,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageIssue,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageIssue,hashCode,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryInternalTest,inspectInner,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryInternalTest,inspectInner,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryInternalTest,test,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryInternalTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryTest,work2,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.imagecanary,ImageCanaryTest,work2,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.leakdetector,Leak,install,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.leakdetector,Leak,uninstall,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.leakdetector,LeakInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.leakdetector,LeakQueue,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.leakdetector,LeakMemoryInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.leakdetector,LeakDetectorTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.leakdetector,LeakDetectorTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.leakdetector,LeakDetectorTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,HeapConfig,HeapConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,HeapEngine,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,MemoryUtil,getAppHeapInfo,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,MemoryUtil,getRamInfo,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,MemoryUtil,getRamTotalMem,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,MemoryUtil,getRamTotalMemByFile,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,NativeHeapInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,PssConfig,PssConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,PssInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,RamConfig,RamConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,RamEngine,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,RamInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,HeapTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,HeapTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,MemoryUtilTest,getAppPssInfo,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,PssTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,PssTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,RamTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.memory,RamTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanary,stopMonitor,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConfig,MethodCanaryConfig,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConfig,MethodCanaryConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConfig,maxMethodCountSingleThreadByCost,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConfig,toString,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConfig,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverter,convertToMethodsRecordInfo,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverter,convertToMethodsRecordInfo,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverter,assertMethodEventPair,Complex Conditional
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverter,assertMethodEventPair,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverter,filter,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverter,filter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverter,filterByTopX,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodsRecordInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodInfoOfThreadInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverterTest,mockMethodEventMap,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryConverterTest,mockMethodEventMap,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.methodcanary,MethodCanaryTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.network,NetworkInfo,toSummaryString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.network,NetworkInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.network,NetworkTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.network,NetworkTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.network,NetworkTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,ActivityLifecycleCallbacks,onActivityCreated,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,ActivityLifecycleCallbacks,onLifecycleEvent,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,ActivityLifecycleCallbacks,onActivityLifecycleEvent,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,ActivityLifecycleCallbacks,onFragmentLifecycleEvent,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,ActivityLifecycleCallbacks,onFragmentV4LifecycleEvent,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageDrawMonitor,PageDrawMonitor,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageDrawMonitor,listen,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageDrawMonitor,postTraversalFinishCallBack,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageInfo,hashCode,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleEventInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleEventWithTime,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleMethodEventTypes,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleMethodEventTypes,hashCode,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,MethodInfoForLifecycle,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,MethodInfoForLifecycle,hashCode,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleRecords,isSystemLifecycleEvent,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleRecords,addLifecycleEvent,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleRecords,addMethodEndEvent,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleRecords,addMethodEndEvent,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleRecords,addMethodStartEvent,Long Identifier
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,Pageload,install,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageloadUtil,parsePageDrawTimeMillis,Complex Conditional
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageloadUtil,parsePageDrawTimeMillis,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageloadUtil,parsePageloadTimeMillis,Complex Conditional
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageloadUtil,parsePageloadTimeMillis,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleMethodEventTypesTest,isMatch,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleMethodEventTypesTest,convert,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageLifecycleMethodEventTypesTest,equalMethodInfoForLifecycle,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageloadTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.pageload,PageloadTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,BlockInfo,blockTime,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,BlockInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,Sm,install,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,Sm,wrapRealConfig,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,SmConfig,SmConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,SmConfig,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,SmTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,SmTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,SmTest,configAndInstallConfig,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,SmTest,configAndInstallConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,SmTest,setSmConfigCache,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm,SmTest,setSmConfigCache,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,CpuSampler,CpuSampler,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,CpuSampler,doSample,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,CpuSampler,parse,Complex Method
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,CpuSampler,parse,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,CpuSampler,parse,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,LongBlockInfo,LongBlockInfo,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,LongBlockInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,LooperMonitor,onBlockEvent,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,LooperMonitor,println,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,BlockListener,onBlockEvent,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,ShortBlockInfo,ShortBlockInfo,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,ShortBlockInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,SmCore,SmCore,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,SmCore,onBlockEvent,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,SmCore,onBlockEvent,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.sm.core,SmCore,getSampleDelay,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.startup,StartupTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.startup,StartupTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.startup,StartupTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadConfig,ThreadConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadConfig,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadEngine,ThreadEngine,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadEngine,dump,Complex Conditional
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadEngine,dump,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadDumpTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadDumpTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadDumpTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.thread,ThreadDumpTest,work2,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficConfig,TrafficConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficEngine,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficEngine,create,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficEngine,apply,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficSnapshot,snapshot,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficTest,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficTest,work2,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.traffic,TrafficTest,work2,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary.levenshtein,ViewIdWithSize,hashCode,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary.levenshtein,WeightedLevenshtein,distance,Complex Method
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewBgUtil,getLayer,Complex Method
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewBgUtil,isBitmapTransparent,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewBgUtil,checkPixelNotTransparency,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryConfig,ViewCanaryConfig,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryInternal,inspect,Long Parameter List
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryInternal,inspect,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryInternal,checkOverDraw,Complex Conditional
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryInternal,checkOverDraw,Complex Method
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryInternal,getViewRect,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryInternal,getResolution,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryInternalTest,inspectInner,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryTest,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryTest,work,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.modules.viewcanary,ViewCanaryTest,work2,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,cpuPredicate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,test,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,cpuConverter,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,apply,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,fpsPredicate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,leakConverter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,apply,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,heapPredicate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,heapConverter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,heapConverter,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,ramConverter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,ramConverter,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,networkConverter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,startupPredicate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,crashConverter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,threadPredicate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,pageloadPredicate,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,pageloadPredicate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,test,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,getPageLifecycleEventCostTime,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,pageloadConverter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,viewCanaryConverter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,overDraw,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,overDraw,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,DefaultNotificationConfig,imageCanaryConverter,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,LocalNotificationListenerService,updateNotification,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.internal.notification,NotificationObserver,install,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.utils,ImageUtil,convertToBase64,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.utils,IoUtil,closeSilently,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core.utils,ImageUtilTest,convertToBase64,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.utils,ImageUtilTest,computeTargetSizeWidth1Height0,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.utils,ImageUtilTest,computeTargetSizeWidth1Height1,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.utils,ImageUtilTest,computeTargetSizeWidth0Height1,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.utils,ImageUtilTest,computeTargetSizeWidth0Height0,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.utils,LTest,d,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.utils,ReflectUtilTest,invokeStaticMethod,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core.utils,ReflectUtilTest,invokeStaticMethod,Long Statement
+AndroidGodEye,cn.hikyson.godeye.core.utils,ThreadUtilTest,ensureMainOrWorkThread,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core.utils,ThreadUtilTest,run,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.core.utils,ThreadUtilTest,testHandlerThreadInMultiThread,Magic Number
+AndroidGodEye,cn.hikyson.godeye.core.utils,ThreadUtilTest,run,Magic Number
+AndroidGodEye,cn.hikyson.android.godeye.leakcanary,GodEyePluginLeakCanary,install,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.leakcanary,GodEyePluginLeakCanary,run,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.leakcanary,GodEyePluginLeakCanary,onHeapAnalyzed,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.leakcanary,GodEyePluginLeakCanary,accept,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.xcrash,GodEyePluginXCrash,init,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.xcrash,GodEyePluginXCrash,init,Magic Number
+AndroidGodEye,cn.hikyson.android.godeye.xcrash,ExampleUnitTest,addition_isCorrect,Magic Number
+AndroidGodEye,cn.hikyson.godeye.ideaplugin,OpenAction,actionPerformed,Long Statement
+AndroidGodEye,cn.hikyson.godeye.ideaplugin,OpenAction,parsePortByLogcatWithTimeout,Magic Number
+AndroidGodEye,cn.hikyson.godeye.ideaplugin,OpenAction,run,Magic Number
+AndroidGodEye,cn.hikyson.godeye.ideaplugin,OpenAction,parsePortByLogcat,Magic Number
+AndroidGodEye,cn.hikyson.godeye.ideaplugin,OpenAction,askForPort,Long Statement
+AndroidGodEye,cn.hikyson.godeye.ideaplugin,OpenAction,askForPort,Magic Number
+AndroidGodEye,cn.hikyson.godeye.ideaplugin,OpenAction,isValid,Magic Number
+AndroidGodEye,cn.hikyson.godeye.monitor,GodEyeMonitor,work,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor,GodEyeMonitor,onClientAdded,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor,GodEyeMonitor,getAddressLog,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor,GodEyeMonitor,getAddressLog,Magic Number
+AndroidGodEye,cn.hikyson.godeye.monitor.modules.appinfo,AppInfo,create,Complex Method
+AndroidGodEye,cn.hikyson.godeye.monitor.modules.appinfo,AppInfo,create,Long Method
+AndroidGodEye,cn.hikyson.godeye.monitor.modules.appinfo,AppInfo,create,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.modules.appinfo,Factory,create,Complex Method
+AndroidGodEye,cn.hikyson.godeye.monitor.modules.appinfo,Factory,create,Long Method
+AndroidGodEye,cn.hikyson.godeye.monitor.modules.appinfo,Factory,create,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.modules.battery,BatterySummaryInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.modules,NetworkSummaryInfo,convertNetworkContentToSummaryContent,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.modules.leak,LeakSimpleInfo,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.notification,MonitorNotificationListener,onInstalled,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.notification,MonitorNotificationListener,onUninstalled,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.notification,MonitorNotificationListener,onNotificationReceive,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.notification,MonitorNotificationListener,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.notification,MonitorNotificationContent,toString,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.server,ModuleDriver,start,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.server,ModuleDriver,pageLifecycleMap,Long Statement
+AndroidGodEye,cn.hikyson.godeye.monitor.server,WebSocketMethodCanaryProcessor,process,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,AnimationFragmentV4,onCreateView,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,AnimationFragmentV4,onClick,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,AppInfoProxyImpl,getAppInfo,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,DeadLockMaker,makeBlock,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,DeadLockMaker,run,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,DeadLockMaker,makeNormal,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ImageActivity,onCreate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ImageActivity,onClick,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,InstallFragment,onCreateView,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,InstallFragment,onResponse,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,LeakActivity,onCreate,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,LeakActivity,onCreate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,LeakActivity,onDestroy,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.sample,LeakActivity,onDestroy,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,LeakActivityV4,onCreate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,LeakFragment,onDestroy,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.sample,LeakFragment,onDestroy,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,LeakFragmentV4,onDestroy,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.sample,LeakFragmentV4,onDestroy,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,LeakFragmentV4,run,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.sample,LeakFragmentV4,run,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,LogView,log,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,LogView,follow,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,Main2Activity,onCreate,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,Main2Activity,showFragment,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,Main2Activity,onInstallModuleChanged,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,Main2Activity,run,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,SecondActivity,onCreate,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,SecondActivity,onCreate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,SubProcessIntentService,handleActionFoo,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ThirdActivity,onCreate,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.sample,ThirdActivity,onCreate,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,ThirdActivity,onCreate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ThirdActivity,onClick,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.sample,ThirdActivity,onClick,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,ThirdActivity,onClick,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ThirdActivity,run,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.sample,ThirdActivity,run,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,onCreate,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,onCreateView,Long Statement
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,onCreateView,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,block,Empty catch clause
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,makeInvocations,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,methodB,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,methodC,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,methodD,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,ToolsFragment,methodE,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,MethodCanaryTest,methodB,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,MethodCanaryTest,methodC,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,MethodCanaryTest,methodD,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample,MethodCanaryTest,methodE,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample.fragmentlifecycle,BlankFragment1,onCreate,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample.fragmentlifecycle,BlankFragment1,onCreateView,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample.fragmentlifecycle,BlankFragment1,onSaveInstanceState,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample.fragmentlifecycle,BlankFragment1,onHiddenChanged,Magic Number
+AndroidGodEye,cn.hikyson.godeye.sample.fragmentlifecycle,BlankFragment2,onCreateView,Magic Number
+AndroidGodEye,cn.hikyson.test.android_godeye_leakcanary,ExampleUnitTest,addition_isCorrect,Magic Number
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,HttpRequest,toString,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,HttpResponse,toString,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkHttpNetworkContentInterceptor,intercept,Complex Method
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkHttpNetworkContentInterceptor,intercept,Long Method
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkHttpNetworkContentInterceptor,intercept,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkHttpNetworkContentInterceptor,isPlaintext,Magic Number
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkHttpNetworkContentInterceptor,bodyHasUnknownEncoding,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,connectEnd,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,connectFailed,Long Parameter List
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,connectFailed,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,requestHeadersStart,Long Identifier
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,requestHeadersEnd,Long Identifier
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,requestHeadersEnd,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,requestBodyEnd,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,responseHeadersStart,Long Identifier
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,responseHeadersEnd,Long Identifier
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,responseHeadersEnd,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,responseBodyEnd,Long Statement
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,OkNetworkEventListener,isSuccessful,Magic Number
+AndroidGodEye,cn.hikyson.android.godeye.okhttp,ExampleUnitTest,addition_isCorrect,Magic Number

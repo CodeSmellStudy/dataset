@@ -1,0 +1,116 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+droidkaigi2016,io.github.droidkaigi.confsched.activity,ContributorsActivity,fetchContributors,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,ContributorsActivity,bindContributors,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,MainActivity,initView,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,onSaveInstanceState,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,onRestoreInstanceState,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,initPlacesAndCategoriesView,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,initPlacesAndCategoriesView,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,loadData,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,finish,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,onActivityResult,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,onBindViewHolder,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,getFilter,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchActivity,performFiltering,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchResultsAdapter,onBindViewHolder,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchResultsAdapter,getFilter,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SearchResultsAdapter,performFiltering,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SessionFeedbackActivity,onSubmitFeedbackButton,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,SessionFeedbackActivity,onSubmitFeedbackSuccess,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,createIntent,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onCreate,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onStart,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onResume,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onShown,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onPause,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onStop,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,getRendererBuilder,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onStateChanged,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onError,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onError,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onError,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,onId3Metadata,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,configureSubtitleView,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,getUserCaptionFontScaleV19,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,getUserCaptionStyleV19,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,dispatchKeyEvent,Complex Conditional
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,dispatchKeyEvent,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,VideoPlayerActivity,dispatchKeyEvent,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.activity,KeyCompatibleMediaController,dispatchKeyEvent,Complex Conditional
+droidkaigi2016,io.github.droidkaigi.confsched.activity,KeyCompatibleMediaController,dispatchKeyEvent,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.activity,KeyCompatibleMediaController,dispatchKeyEvent,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.util,AlarmUtil,registerSessionAlarm,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.util,AlarmUtil,calculateStartNotifyTime,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.util,AppUtil,showWebPage,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.util,DataBindingAttributeUtil,setImageUrlWithSize,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.util,DataBindingAttributeUtil,setSessionTimeRange,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.util,DataBindingAttributeUtil,setSessionDetailTimeRange,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.util,ResourceUtil,getBitmap,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.api,DroidKaigiClient,DroidKaigiClient,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.api,DroidKaigiClient,getSessions,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.api,DroidKaigiClient,submitSessionFeedback,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.api,DroidKaigiClient,submitSessionFeedback,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.api,GoogleFormService,submitSessionFeedback,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.api,RequestInterceptor,intercept,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.di,AppModule,provideOrmaDatabase,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,AboutFragment,initView,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,MapFragment,renderMarkers,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SearchedSessionsFragment,getSessionsAsObservable,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SessionDetailFragment,onCreate,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SessionsFragment,fetchAndSave,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SessionsFragment,loadData,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SessionsFragment,onActivityResult,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SessionsTabFragment,onBindViewHolder,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SessionsAdapter,onBindViewHolder,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SettingsFragment,showLanguagesDialog,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.fragment,SponsorsFragment,addView,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getThemeResId,Complex Method
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getThemeResId,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getThemeResId,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getVividColorResId,Complex Method
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getVividColorResId,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getVividColorResId,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getPaleColorResId,Complex Method
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getPaleColorResId,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.model,Category,getPaleColorResId,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.model,PlaceMap,PlaceMap,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.model,PlaceMap,createList,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.model,PlaceMap,createList,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.model,SearchResult,SearchResult,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.model,SearchResult,createTitleType,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.model,SearchResult,createDescriptionType,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.model,SearchResult,createSpeakerType,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.model,Session,getLanguageResId,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.model,SessionFeedback,SessionFeedback,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.model,Sponsor,createPlatinumList,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.model,Sponsor,createFoodsList,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.model,Sponsor,createNormalList,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.player,DashRendererBuilder,onSingleManifest,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.player,DashRendererBuilder,buildRenderers,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.player,DashRendererBuilder,buildRenderers,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.player,AsyncRendererBuilder,onSingleManifest,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.player,AsyncRendererBuilder,buildRenderers,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.player,AsyncRendererBuilder,buildRenderers,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.player,DemoPlayer,onLoadStarted,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.player,DemoPlayer,onLoadCompleted,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.player,DemoPlayer,DemoPlayer,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.player,DemoPlayer,setSelectedTrack,Complex Conditional
+droidkaigi2016,io.github.droidkaigi.confsched.player,DemoPlayer,prepare,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.player,DemoPlayer,onRenderers,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.player,DemoPlayer,getPlaybackState,Long Identifier
+droidkaigi2016,io.github.droidkaigi.confsched.player,DemoPlayer,onLoadCompleted,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.player,InfoListener,onLoadStarted,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.player,InfoListener,onLoadCompleted,Long Parameter List
+droidkaigi2016,io.github.droidkaigi.confsched.receiver,SessionScheduleReceiver,onReceive,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.widget,MapSearchView,revealOn,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.widget,MapSearchView,revealOff,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.widget,NumberRatingBar,onTouchEvent,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.widget,SearchPlacesAndCategoriesView,onCreateViewHolder,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.widget,SearchPlacesAndCategoriesView,onBindViewHolder,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.widget,SearchPlacesAndCategoriesView,getItemViewType,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.widget,SearchGroupsAdapter,onCreateViewHolder,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.widget,SearchGroupsAdapter,onBindViewHolder,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.widget,SearchGroupsAdapter,getItemViewType,Missing default
+droidkaigi2016,io.github.droidkaigi.confsched.widget,SearchToolbar,toggleCloseButtonVisible,Magic Number
+droidkaigi2016,io.github.droidkaigi.confsched.widget,SpeakerSnsIconsView,setSpeakerSnsIcons,Long Statement
+droidkaigi2016,io.github.droidkaigi.confsched.widget.transformation,CropCircleTransformation,transform,Magic Number

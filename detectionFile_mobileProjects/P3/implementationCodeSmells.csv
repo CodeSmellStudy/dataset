@@ -1,0 +1,339 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+andlytics,com.github.andlyticsproject.about,AboutActivity,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,AccountSpecificPreferenceActivity,onLoadAppListTaskComplete,Long Identifier
+andlytics,com.github.andlyticsproject,AccountSpecificPreferenceActivity,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,AdmobAuthenticatorActivity,onAuthenticationResult,Long Statement
+andlytics,com.github.andlyticsproject,AdmobFragment,load,Magic Number
+andlytics,com.github.andlyticsproject,AdmobFragment,onCreateOptionsMenu,Complex Method
+andlytics,com.github.andlyticsproject,AdmobFragment,onOptionsItemSelected,Complex Method
+andlytics,com.github.andlyticsproject,AdmobFragment,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,AdmobFragment,loadChartData,Long Statement
+andlytics,com.github.andlyticsproject,AdmobFragment,getExtraFullViews,Long Statement
+andlytics,com.github.andlyticsproject,AdmobFragment,onPostExecute,Complex Method
+andlytics,com.github.andlyticsproject,AdmobDbLoader,load,Magic Number
+andlytics,com.github.andlyticsproject,LoadAdUnitsTask,onPostExecute,Complex Method
+andlytics,com.github.andlyticsproject,AdmobListAdapter,getNumPages,Magic Number
+andlytics,com.github.andlyticsproject,AdmobListAdapter,getNumCharts,Magic Number
+andlytics,com.github.andlyticsproject,AdmobListAdapter,getNumCharts,Missing default
+andlytics,com.github.andlyticsproject,AdmobListAdapter,getChartTitle,Complex Method
+andlytics,com.github.andlyticsproject,AdmobListAdapter,updateChartValue,Complex Method
+andlytics,com.github.andlyticsproject,AdmobListAdapter,updateChartValue,Magic Number
+andlytics,com.github.andlyticsproject,AdmobListAdapter,buildChart,Complex Method
+andlytics,com.github.andlyticsproject,AdmobListAdapter,buildChart,Long Parameter List
+andlytics,com.github.andlyticsproject,AdmobListAdapter,getSubHeadLine,Complex Method
+andlytics,com.github.andlyticsproject,AdmobListAdapter,getSubHeadLine,Long Statement
+andlytics,com.github.andlyticsproject,AdmobListAdapter,getSubHeadLine,Magic Number
+andlytics,com.github.andlyticsproject,AndlyticsPreferenceActivity,buildAccountsList,Long Identifier
+andlytics,com.github.andlyticsproject,AndlyticsPreferenceActivity,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,AppInfoActivity,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,AppStatsDiff,hasChanges,Complex Conditional
+andlytics,com.github.andlyticsproject,BaseActivity,handleUserVisibleException,Complex Method
+andlytics,com.github.andlyticsproject,BaseActivity,showGooglePlayServicesAvailabilityErrorDialog,Long Statement
+andlytics,com.github.andlyticsproject,BaseActivity,run,Long Statement
+andlytics,com.github.andlyticsproject,BaseChartListAdapter,BaseChartListAdapter,Abstract Function Call From Constructor
+andlytics,com.github.andlyticsproject,BaseChartListAdapter,getView,Complex Method
+andlytics,com.github.andlyticsproject,BaseChartListAdapter,getView,Long Statement
+andlytics,com.github.andlyticsproject,BaseChartListAdapter,getView,Magic Number
+andlytics,com.github.andlyticsproject,BaseChartListAdapter,createTextView,Magic Number
+andlytics,com.github.andlyticsproject,BaseChartListAdapter,buildChart,Long Parameter List
+andlytics,com.github.andlyticsproject,ChartFragment,updateView,Long Statement
+andlytics,com.github.andlyticsproject,ChartFragment,onOptionsItemSelected,Complex Method
+andlytics,com.github.andlyticsproject,ChartFragment,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,ChartFragmentBase,updateCharts,Magic Number
+andlytics,com.github.andlyticsproject,ChartListAdapter,getNumPages,Magic Number
+andlytics,com.github.andlyticsproject,ChartListAdapter,getNumCharts,Magic Number
+andlytics,com.github.andlyticsproject,CommentsFragment,CommentsLoader,Long Parameter List
+andlytics,com.github.andlyticsproject,CommentsFragment,load,Complex Conditional
+andlytics,com.github.andlyticsproject,CommentsFragment,RemoteCommentsLoader,Long Parameter List
+andlytics,com.github.andlyticsproject,CommentsFragment,load,Long Statement
+andlytics,com.github.andlyticsproject,CommentsFragment,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,CommentsFragment,onLoadFinished,Complex Method
+andlytics,com.github.andlyticsproject,CommentsLoader,CommentsLoader,Long Parameter List
+andlytics,com.github.andlyticsproject,CommentsLoader,load,Complex Conditional
+andlytics,com.github.andlyticsproject,RemoteCommentsLoader,RemoteCommentsLoader,Long Parameter List
+andlytics,com.github.andlyticsproject,RemoteCommentsLoader,load,Complex Conditional
+andlytics,com.github.andlyticsproject,RemoteCommentsLoader,load,Long Statement
+andlytics,com.github.andlyticsproject,CommentsListAdapter,getChildView,Complex Method
+andlytics,com.github.andlyticsproject,CommentsListAdapter,getChildView,Long Method
+andlytics,com.github.andlyticsproject,CommentsListAdapter,getChildView,Long Parameter List
+andlytics,com.github.andlyticsproject,CommentsListAdapter,getChildView,Long Statement
+andlytics,com.github.andlyticsproject,CommentsListAdapter,getChildView,Magic Number
+andlytics,com.github.andlyticsproject,CommentsListAdapter,sendToGoogleTranslate,Long Statement
+andlytics,com.github.andlyticsproject,CommentsListAdapter,getChildTypeCount,Magic Number
+andlytics,com.github.andlyticsproject,ContentAdapter,getAdmobStats,Complex Method
+andlytics,com.github.andlyticsproject,ContentAdapter,getAdmobStats,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getAdmobStats,Magic Number
+andlytics,com.github.andlyticsproject,ContentAdapter,readAdmobStats,Magic Number
+andlytics,com.github.andlyticsproject,ContentAdapter,getAdmobStatsIdForDate,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,insertOrUpdateAppStats,Complex Method
+andlytics,com.github.andlyticsproject,ContentAdapter,insertOrUpdateApp,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getAppName,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getPackagesForAccount,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getAllAppsLatestStats,Complex Method
+andlytics,com.github.andlyticsproject,ContentAdapter,getAllAppsLatestStats,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,setGhost,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,setRatingExpanded,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getAppInfoByPackageName,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getSkipNotification,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getStatsForApp,Complex Method
+andlytics,com.github.andlyticsproject,ContentAdapter,getStatsForApp,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getStatsForApp,Magic Number
+andlytics,com.github.andlyticsproject,ContentAdapter,getLatestForApp,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getRevenueSummaryForApp,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getDailyRatings,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getDailyRatings,Magic Number
+andlytics,com.github.andlyticsproject,ContentAdapter,updateCommentsCache,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,getCommentsFromCache,Complex Method
+andlytics,com.github.andlyticsproject,ContentAdapter,getCommentsFromCache,Long Statement
+andlytics,com.github.andlyticsproject,ContentAdapter,setSkipNotification,Long Statement
+andlytics,com.github.andlyticsproject,DetailsActivity,onCreate,Long Statement
+andlytics,com.github.andlyticsproject,DetailsActivity,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,DeveloperAccountManager,getAllDeveloperAccounts,Long Statement
+andlytics,com.github.andlyticsproject,DeveloperAccountManager,getActiveDeveloperAccounts,Long Statement
+andlytics,com.github.andlyticsproject,DeveloperAccountManager,getDeveloperAccountsByState,Long Statement
+andlytics,com.github.andlyticsproject,DeveloperAccountManager,findDeveloperAccountById,Long Statement
+andlytics,com.github.andlyticsproject,DeveloperAccountManager,findDeveloperAccountByName,Long Statement
+andlytics,com.github.andlyticsproject,DeveloperAccountManager,unselectDeveloperAccount,Long Statement
+andlytics,com.github.andlyticsproject,DeveloperAccountManager,setAccountState,Long Statement
+andlytics,com.github.andlyticsproject,DeveloperAccountManager,createAcount,Long Statement
+andlytics,com.github.andlyticsproject,DownloadsChartListAdapter,getNumCharts,Magic Number
+andlytics,com.github.andlyticsproject,DownloadsChartListAdapter,buildChart,Long Parameter List
+andlytics,com.github.andlyticsproject,ExportActivity,onCreateDialog,Long Statement
+andlytics,com.github.andlyticsproject,ExportActivity,startExport,Long Statement
+andlytics,com.github.andlyticsproject,ConfirmExportDialogFragment,onCreateDialog,Long Statement
+andlytics,com.github.andlyticsproject,ImportActivity,onCreateDialog,Long Statement
+andlytics,com.github.andlyticsproject,ConfirmImportDialogFragment,onCreateDialog,Long Statement
+andlytics,com.github.andlyticsproject,LoginActivity,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,LoginActivity,addNewGoogleAccount,Long Identifier
+andlytics,com.github.andlyticsproject,LoginActivity,addNewGoogleAccount,Long Statement
+andlytics,com.github.andlyticsproject,Main,onNavigationItemSelected,Missing default
+andlytics,com.github.andlyticsproject,Main,onOptionsItemSelected,Magic Number
+andlytics,com.github.andlyticsproject,Main,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,Main,onActivityResult,Complex Method
+andlytics,com.github.andlyticsproject,Main,onActivityResult,Long Statement
+andlytics,com.github.andlyticsproject,Main,updateAccountsList,Long Statement
+andlytics,com.github.andlyticsproject,Main,updateMainList,Long Statement
+andlytics,com.github.andlyticsproject,Main,doInBackground,Complex Method
+andlytics,com.github.andlyticsproject,Main,doInBackground,Magic Number
+andlytics,com.github.andlyticsproject,Main,doInBackground,Long Statement
+andlytics,com.github.andlyticsproject,Main,updateStatsMode,Missing default
+andlytics,com.github.andlyticsproject,Main,getView,Magic Number
+andlytics,com.github.andlyticsproject,LoadRemoteEntries,doInBackground,Complex Method
+andlytics,com.github.andlyticsproject,LoadRemoteEntries,doInBackground,Magic Number
+andlytics,com.github.andlyticsproject,LoadDbEntries,doInBackground,Long Statement
+andlytics,com.github.andlyticsproject,AccountSelectorAdaper,getView,Magic Number
+andlytics,com.github.andlyticsproject,MainListAdapter,MainListAdapter,Magic Number
+andlytics,com.github.andlyticsproject,MainListAdapter,getView,Complex Method
+andlytics,com.github.andlyticsproject,MainListAdapter,getView,Long Method
+andlytics,com.github.andlyticsproject,MainListAdapter,getView,Long Statement
+andlytics,com.github.andlyticsproject,MainListAdapter,getView,Magic Number
+andlytics,com.github.andlyticsproject,MainListAdapter,onClick,Long Statement
+andlytics,com.github.andlyticsproject,MainListAdapter,onClick,Magic Number
+andlytics,com.github.andlyticsproject,MainListAdapter,onAnimationEnd,Long Statement
+andlytics,com.github.andlyticsproject,MainListAdapter,onAnimationEnd,Magic Number
+andlytics,com.github.andlyticsproject,MainListAdapter,ExpandAnimation,Long Parameter List
+andlytics,com.github.andlyticsproject,ExpandAnimation,ExpandAnimation,Long Parameter List
+andlytics,com.github.andlyticsproject,NotificationPreferenceActivity,onOptionsItemSelected,Missing default
+andlytics,com.github.andlyticsproject,Preferences,getAutosyncPeriod,Long Statement
+andlytics,com.github.andlyticsproject,Preferences,getRequestFullAssetInfo,Long Identifier
+andlytics,com.github.andlyticsproject,Preferences,saveRequestFullAssetInfo,Long Identifier
+andlytics,com.github.andlyticsproject,Preferences,getRequestGetAssetForUserCount,Long Identifier
+andlytics,com.github.andlyticsproject,Preferences,saveRequestGetAssetForUserCount,Long Identifier
+andlytics,com.github.andlyticsproject,Preferences,getDateFormatStringShort,Complex Conditional
+andlytics,com.github.andlyticsproject,Preferences,getHideAdmobForUnconfiguredApps,Long Identifier
+andlytics,com.github.andlyticsproject,Preferences,isShowCommentAutoTranslations,Long Identifier
+andlytics,com.github.andlyticsproject,Preferences,saveShowCommentAutoTranslations,Long Identifier
+andlytics,com.github.andlyticsproject,RatingsChartListAdapter,getNumCharts,Magic Number
+andlytics,com.github.andlyticsproject,RatingsChartListAdapter,getChartTitle,Complex Method
+andlytics,com.github.andlyticsproject,RatingsChartListAdapter,updateChartValue,Complex Method
+andlytics,com.github.andlyticsproject,RatingsChartListAdapter,buildChart,Complex Method
+andlytics,com.github.andlyticsproject,RatingsChartListAdapter,buildChart,Long Parameter List
+andlytics,com.github.andlyticsproject,RatingsChartListAdapter,getSubHeadLine,Complex Method
+andlytics,com.github.andlyticsproject,ReplyDialog,onCreateView,Long Identifier
+andlytics,com.github.andlyticsproject,ReplyDialog,onCreateView,Long Statement
+andlytics,com.github.andlyticsproject,ReplyDialog,onTextChanged,Long Identifier
+andlytics,com.github.andlyticsproject,ReplyDialog,showKeyboard,Long Statement
+andlytics,com.github.andlyticsproject,RevenueChartListAdapter,getNumCharts,Magic Number
+andlytics,com.github.andlyticsproject,RevenueChartListAdapter,buildChart,Long Parameter List
+andlytics,com.github.andlyticsproject.admob,AdmobAccountAuthenticator,onBind,Long Statement
+andlytics,com.github.andlyticsproject.admob,AdmobAccountAuthenticator,addAccount,Long Parameter List
+andlytics,com.github.andlyticsproject.admob,Authenticator,addAccount,Long Parameter List
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,login,Long Statement
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,handleNonJsonException,Complex Conditional
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,handleNonJsonException,Long Statement
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,getData,Long Parameter List
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,getResponse,Complex Method
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,getResponse,Empty catch clause
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,getResponse,Long Parameter List
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,syncSiteStats,Complex Method
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,syncSiteStats,Long Statement
+andlytics,com.github.andlyticsproject.admob,AdmobRequest,syncSiteStats,Magic Number
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,createForegroundSyncClient,Long Statement
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,backgroundSyncStats,Long Parameter List
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,syncStats,Magic Number
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,getSyncPeriod,Magic Number
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,getClientId,Long Statement
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,updateStats,Magic Number
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,createBackgroundSyncClient,Long Parameter List
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,createBackgroundSyncClient,Long Statement
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,generateReport,Complex Method
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,generateReport,Long Parameter List
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,generateReport,Long Statement
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,generateReport,Magic Number
+andlytics,com.github.andlyticsproject.adsense,AdSenseClient,getAdUnits,Long Statement
+andlytics,com.github.andlyticsproject.adsense,BackgroundGoogleAccountCredential,BackgroundGoogleAccountCredential,Long Parameter List
+andlytics,com.github.andlyticsproject.adsense,BackgroundGoogleAccountCredential,usingOAuth2,Long Parameter List
+andlytics,com.github.andlyticsproject.adsense,BackgroundGoogleAccountCredential,usingAudience,Long Parameter List
+andlytics,com.github.andlyticsproject.adsense,BackgroundGoogleAccountCredential,newChooseAccountIntent,Long Statement
+andlytics,com.github.andlyticsproject.adsense,BackgroundGoogleAccountCredential,getToken,Empty catch clause
+andlytics,com.github.andlyticsproject.adsense,BackgroundGoogleAccountCredential,handleResponse,Magic Number
+andlytics,com.github.andlyticsproject.adsense,RequestHandler,handleResponse,Magic Number
+andlytics,com.github.andlyticsproject.chart,AbstractChart,setChartSettings,Long Parameter List
+andlytics,com.github.andlyticsproject.chart,AbstractChart,buildMultipleCategoryDataset,Magic Number
+andlytics,com.github.andlyticsproject.chart,Chart,buildBarChart,Complex Method
+andlytics,com.github.andlyticsproject.chart,Chart,buildBarChart,Long Parameter List
+andlytics,com.github.andlyticsproject.chart,Chart,buildBarChart,Long Statement
+andlytics,com.github.andlyticsproject.chart,Chart,buildBarChart,Magic Number
+andlytics,com.github.andlyticsproject.chart,Chart,buildLineChart,Complex Method
+andlytics,com.github.andlyticsproject.chart,Chart,buildLineChart,Long Statement
+andlytics,com.github.andlyticsproject.chart,Chart,buildLineChart,Magic Number
+andlytics,com.github.andlyticsproject.console,DevConsole,getComments,Long Parameter List
+andlytics,com.github.andlyticsproject.console,DevConsole,replyToComment,Long Parameter List
+andlytics,com.github.andlyticsproject.console.v2,AccountManagerAuthenticator,authenticateInternal,Complex Method
+andlytics,com.github.andlyticsproject.console.v2,AccountManagerAuthenticator,authenticateInternal,Long Method
+andlytics,com.github.andlyticsproject.console.v2,AccountManagerAuthenticator,authenticateInternal,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,BaseAuthenticator,openAuthUrlInBrowser,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,BaseAuthenticator,createSessionCredentials,Long Identifier
+andlytics,com.github.andlyticsproject.console.v2,BaseAuthenticator,createSessionCredentials,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,getComments,Long Parameter List
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,replyToComment,Long Parameter List
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,replyToComment,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,fetchAppInfos,Complex Method
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,fetchAppInfos,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,fetchStatistics,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,fetchRatings,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,fetchComments,Long Parameter List
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,fetchComments,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,fetchRevenueSummary,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2,authenticate,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2Protocol,createFetchAppInfosRequest,Long Identifier
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2Protocol,createFetchStatisticsRequest,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,DevConsoleV2Protocol,createFetchRevenueSummaryRequest,Magic Number
+andlytics,com.github.andlyticsproject.console.v2,HttpClientFactory,createDefaultClient,Magic Number
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseStatistics,Missing default
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseAppInfos,Complex Conditional
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseAppInfos,Complex Method
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseAppInfos,Magic Number
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,pp,Magic Number
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseComments,Complex Conditional
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseComments,Complex Method
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseComments,Magic Number
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseRevenueResponse,Complex Method
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseRevenueResponse,Magic Number
+andlytics,com.github.andlyticsproject.console.v2,JsonParser,parseRevenueResponse,Missing default
+andlytics,com.github.andlyticsproject.console.v2,OauthAccountManagerAuthenticator,authenticateInternal,Complex Conditional
+andlytics,com.github.andlyticsproject.console.v2,OauthAccountManagerAuthenticator,authenticateInternal,Complex Method
+andlytics,com.github.andlyticsproject.console.v2,OauthAccountManagerAuthenticator,authenticateInternal,Long Method
+andlytics,com.github.andlyticsproject.console.v2,OauthAccountManagerAuthenticator,authenticateInternal,Long Statement
+andlytics,com.github.andlyticsproject.console.v2,OauthAccountManagerAuthenticator,getCurrentUrl,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,delete,Missing default
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,getType,Missing default
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,insert,Complex Method
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,insert,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,query,Complex Method
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,query,Long Parameter List
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,query,Missing default
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,update,Missing default
+andlytics,com.github.andlyticsproject.db,AndlyticsContentProvider,getAppStatsIdByDate,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,onUpgrade,Complex Method
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,onUpgrade,Long Method
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,onUpgrade,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,onUpgrade,Magic Number
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,migrateAppInfoPrefs,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,getAdmobDetails,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,getAdmobDetails,Magic Number
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,getLastCommentsRemoteUpdateTime,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,findPackageId,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,findAppByPackageName,Complex Method
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,findAppByPackageName,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,fetchAppDetails,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,updateAppDetails,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,insertOrUpdateAppDetails,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,getLinksForApp,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,editLink,Long Statement
+andlytics,com.github.andlyticsproject.db,AndlyticsDb,fetchRevenueSummary,Long Statement
+andlytics,com.github.andlyticsproject.dialog,AddEditLinkDialog,onCreateView,Long Identifier
+andlytics,com.github.andlyticsproject.dialog,AddEditLinkDialog,onCreateView,Long Statement
+andlytics,com.github.andlyticsproject.dialog,AddEditLinkDialog,onClick,Long Identifier
+andlytics,com.github.andlyticsproject.dialog,AddEditLinkDialog,onClick,Long Statement
+andlytics,com.github.andlyticsproject.dialog,AddEditLinkDialog,setOnFinishAddEditLinkDialogListener,Long Identifier
+andlytics,com.github.andlyticsproject.io,ExportService,notifyExportFinished,Long Statement
+andlytics,com.github.andlyticsproject.io,ExportService,sendNotification,Long Statement
+andlytics,com.github.andlyticsproject.io,ImportService,importStats,Long Statement
+andlytics,com.github.andlyticsproject.io,ImportService,notifyImportFinished,Long Statement
+andlytics,com.github.andlyticsproject.io,ImportService,sendNotification,Long Statement
+andlytics,com.github.andlyticsproject.io,StatsCsvReaderWriter,writeStats,Magic Number
+andlytics,com.github.andlyticsproject.io,StatsCsvReaderWriter,readStats,Magic Number
+andlytics,com.github.andlyticsproject.model,AdmobStats,getEpc,Magic Number
+andlytics,com.github.andlyticsproject.model,AppInfo,hashCode,Magic Number
+andlytics,com.github.andlyticsproject.model,AppInfo,equals,Complex Method
+andlytics,com.github.andlyticsproject.model,AppStats,setRating,Long Parameter List
+andlytics,com.github.andlyticsproject.model,AppStats,addRating,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,addRating,Missing default
+andlytics,com.github.andlyticsproject.model,AppStats,calcAvgRating,Complex Method
+andlytics,com.github.andlyticsproject.model,AppStats,calcAvgRating,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,calcAvgRating,Missing default
+andlytics,com.github.andlyticsproject.model,AppStats,calcAvgRatingString,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,calcAvgRatingDiffString,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,calsRatingPercentStrings,Complex Method
+andlytics,com.github.andlyticsproject.model,AppStats,calsRatingPercentStrings,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,calsRatingPercentStrings,Missing default
+andlytics,com.github.andlyticsproject.model,AppStats,calcActiveInstallsPercentString,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,getActiveInstallsPercent,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,hashCode,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,equals,Complex Method
+andlytics,com.github.andlyticsproject.model,AppStats,calcNumberOfCommentsPercentString,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStats,calcRatingCountPercentString,Magic Number
+andlytics,com.github.andlyticsproject.model,AppStatsSummary,calculateOverallStats,Complex Conditional
+andlytics,com.github.andlyticsproject.model,AppStatsSummary,calculateOverallStats,Complex Method
+andlytics,com.github.andlyticsproject.model,AppStatsSummary,calculateOverallStats,Long Method
+andlytics,com.github.andlyticsproject.model,AppStatsSummary,calculateOverallStats,Magic Number
+andlytics,com.github.andlyticsproject.model,CommentGroup,hashCode,Magic Number
+andlytics,com.github.andlyticsproject.model,DeveloperAccount,hashCode,Magic Number
+andlytics,com.github.andlyticsproject.model,DeveloperConsoleAccount,hashCode,Magic Number
+andlytics,com.github.andlyticsproject.model,DeveloperConsoleAccount,toString,Long Statement
+andlytics,com.github.andlyticsproject.model,Revenue,asString,Long Statement
+andlytics,com.github.andlyticsproject.model,Revenue,developerCutAsString,Long Statement
+andlytics,com.github.andlyticsproject.model,RevenueSummary,createTotal,Long Parameter List
+andlytics,com.github.andlyticsproject.model,RevenueSummary,createSales,Long Parameter List
+andlytics,com.github.andlyticsproject.model,RevenueSummary,createInApp,Long Parameter List
+andlytics,com.github.andlyticsproject.model,RevenueSummary,RevenueSummary,Long Parameter List
+andlytics,com.github.andlyticsproject.sync,AutosyncHandler,getAutosyncPeriod,Magic Number
+andlytics,com.github.andlyticsproject.sync,AutosyncHandler,setAutosyncPeriod,Magic Number
+andlytics,com.github.andlyticsproject.sync,ContentProvider,query,Long Parameter List
+andlytics,com.github.andlyticsproject.sync,NotificationHandler,handleNotificaions,Complex Conditional
+andlytics,com.github.andlyticsproject.sync,NotificationHandler,handleNotificaions,Complex Method
+andlytics,com.github.andlyticsproject.sync,NotificationHandler,handleNotificaions,Long Statement
+andlytics,com.github.andlyticsproject.sync,SyncAdapterService,onPerformSync,Long Parameter List
+andlytics,com.github.andlyticsproject.sync,SyncAdapterService,onPerformSync,Long Statement
+andlytics,com.github.andlyticsproject.sync,SyncAdapterService,performSync,Complex Method
+andlytics,com.github.andlyticsproject.sync,SyncAdapterService,performSync,Long Parameter List
+andlytics,com.github.andlyticsproject.sync,SyncAdapterService,performSync,Magic Number
+andlytics,com.github.andlyticsproject.sync,SyncAdapterImpl,onPerformSync,Long Parameter List
+andlytics,com.github.andlyticsproject.sync,SyncAdapterImpl,onPerformSync,Long Statement
+andlytics,com.github.andlyticsproject.util,ChangelogBuilder,create,Long Statement
+andlytics,com.github.andlyticsproject.util,DataLoader,loadData,Long Statement
+andlytics,com.github.andlyticsproject.util,FileUtils,readFromUri,Magic Number
+andlytics,com.github.andlyticsproject.util,FileUtils,closeSilently,Empty catch clause
+andlytics,com.github.andlyticsproject.util,LoaderBase,deliverResult,Complex Conditional
+andlytics,com.github.andlyticsproject.util,Utils,getAndSaveToFile,Magic Number
+andlytics,com.github.andlyticsproject.view,ChartGallery,onLayout,Long Parameter List
+andlytics,com.github.andlyticsproject.view,ChartGallery,onFling,Magic Number
+andlytics,com.github.andlyticsproject.view,ChartGallery,onScroll,Magic Number
+andlytics,com.github.andlyticsproject.view,Rotate3dAnimation,Rotate3dAnimation,Long Parameter List
+andlytics,com.github.andlyticsproject.view,ViewSwitcher3D,swap,Long Statement
+andlytics,com.github.andlyticsproject.view,ViewSwitcher3D,swap,Magic Number
+andlytics,com.github.andlyticsproject.view,ViewSwitcher3D,run,Magic Number
+andlytics,com.github.andlyticsproject.view,ViewSwitcher3D,unmirrorTheBackside,Long Statement
+andlytics,com.github.andlyticsproject.view,ViewSwitcher3D,unmirrorTheBackside,Magic Number
+andlytics,com.github.andlyticsproject.view,SwapViews,run,Magic Number

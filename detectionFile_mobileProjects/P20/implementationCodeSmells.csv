@@ -1,0 +1,1491 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+irccloud,com.irccloud.android,ActionEditText,onCreateInputConnection,Long Statement
+irccloud,com.irccloud.android,ActionEditText,onKeyPreIme,Complex Conditional
+irccloud,com.irccloud.android,AlphanumComparator,isDigit,Magic Number
+irccloud,com.irccloud.android,AlphanumComparator,compare,Complex Method
+irccloud,com.irccloud.android,AppCompatDialogPreference,showDialog,Long Statement
+irccloud,com.irccloud.android,AppCompatDialogPreference,requestInputMethod,Long Statement
+irccloud,com.irccloud.android,AppCompatListPreference,onDialogClosed,Complex Conditional
+irccloud,com.irccloud.android,AsyncTaskEx,execute,Long Statement
+irccloud,com.irccloud.android,BackgroundTaskWorker,registerGCM,Empty catch clause
+irccloud,com.irccloud.android,BackgroundTaskWorker,registerGCM,Long Statement
+irccloud,com.irccloud.android,BackgroundTaskWorker,scheduleUnregister,Empty catch clause
+irccloud,com.irccloud.android,BackgroundTaskWorker,scheduleUnregister,Long Statement
+irccloud,com.irccloud.android,BackgroundTaskWorker,unregisterGCM,Empty catch clause
+irccloud,com.irccloud.android,BackgroundTaskWorker,unregisterGCM,Long Statement
+irccloud,com.irccloud.android,BackgroundTaskWorker,onGcmUnregister,Long Statement
+irccloud,com.irccloud.android,ChromeCopyLinkBroadcastReceiver,onReceive,Long Statement
+irccloud,com.irccloud.android,CollapsedEventsList,toString,Long Statement
+irccloud,com.irccloud.android,CollapsedEventsList,addMode,Complex Method
+irccloud,com.irccloud.android,CollapsedEventsList,removeMode,Complex Method
+irccloud,com.irccloud.android,CollapsedEventsList,getModes,Long Statement
+irccloud,com.irccloud.android,CollapsedEventsList,getModes,Magic Number
+irccloud,com.irccloud.android,CollapsedEventsList,setServer,Long Statement
+irccloud,com.irccloud.android,CollapsedEventsList,addEvent,Complex Conditional
+irccloud,com.irccloud.android,CollapsedEventsList,addEvent,Complex Method
+irccloud,com.irccloud.android,CollapsedEventsList,addEvent,Long Statement
+irccloud,com.irccloud.android,CollapsedEventsList,addEvent,Magic Number
+irccloud,com.irccloud.android,CollapsedEventsList,addEvent,Long Parameter List
+irccloud,com.irccloud.android,CollapsedEventsList,addEvent,Long Method
+irccloud,com.irccloud.android,CollapsedEventsList,findEvent,Complex Conditional
+irccloud,com.irccloud.android,CollapsedEventsList,findEvent,Long Statement
+irccloud,com.irccloud.android,CollapsedEventsList,formatNick,Complex Method
+irccloud,com.irccloud.android,CollapsedEventsList,formatNick,Empty catch clause
+irccloud,com.irccloud.android,CollapsedEventsList,formatNick,Long Parameter List
+irccloud,com.irccloud.android,CollapsedEventsList,formatNick,Long Statement
+irccloud,com.irccloud.android,CollapsedEventsList,was,Complex Conditional
+irccloud,com.irccloud.android,CollapsedEventsList,getCollapsedMessage,Complex Conditional
+irccloud,com.irccloud.android,CollapsedEventsList,getCollapsedMessage,Complex Method
+irccloud,com.irccloud.android,CollapsedEventsList,getCollapsedMessage,Long Method
+irccloud,com.irccloud.android,CollapsedEventsList,getCollapsedMessage,Long Statement
+irccloud,com.irccloud.android,CollapsedEventsList,getCollapsedMessage,Magic Number
+irccloud,com.irccloud.android,CollapsedEvent,toString,Long Statement
+irccloud,com.irccloud.android,CollapsedEvent,addMode,Complex Method
+irccloud,com.irccloud.android,CollapsedEvent,removeMode,Complex Method
+irccloud,com.irccloud.android,CollapsedEvent,getModes,Long Statement
+irccloud,com.irccloud.android,CollapsedEvent,getModes,Magic Number
+irccloud,com.irccloud.android,ColorFormatter,init,Complex Conditional
+irccloud,com.irccloud.android,ColorFormatter,init,Complex Method
+irccloud,com.irccloud.android,ColorFormatter,init,Long Statement
+irccloud,com.irccloud.android,ColorFormatter,init,Magic Number
+irccloud,com.irccloud.android,ColorFormatter,emojify,Complex Method
+irccloud,com.irccloud.android,ColorFormatter,emojify,Empty catch clause
+irccloud,com.irccloud.android,ColorFormatter,emojify,Long Statement
+irccloud,com.irccloud.android,ColorFormatter,insert_codespans,Magic Number
+irccloud,com.irccloud.android,ColorFormatter,html_to_spanned,Long Parameter List
+irccloud,com.irccloud.android,ColorFormatter,detectLinks,Complex Method
+irccloud,com.irccloud.android,ColorFormatter,detectLinks,Long Statement
+irccloud,com.irccloud.android,ColorFormatter,detectLinks,Magic Number
+irccloud,com.irccloud.android,ColorFormatter,updateDrawState,Magic Number
+irccloud,com.irccloud.android,ColorFormatter,updateMeasureState,Magic Number
+irccloud,com.irccloud.android,ColorFormatter,closeTags,Long Parameter List
+irccloud,com.irccloud.android,ColorFormatter,openTags,Long Parameter List
+irccloud,com.irccloud.android,ColorFormatter,irc_to_html,Complex Conditional
+irccloud,com.irccloud.android,ColorFormatter,irc_to_html,Complex Method
+irccloud,com.irccloud.android,ColorFormatter,irc_to_html,Long Method
+irccloud,com.irccloud.android,ColorFormatter,irc_to_html,Long Parameter List
+irccloud,com.irccloud.android,ColorFormatter,irc_to_html,Long Statement
+irccloud,com.irccloud.android,ColorFormatter,irc_to_html,Magic Number
+irccloud,com.irccloud.android,ColorFormatter,strip_colors,Complex Conditional
+irccloud,com.irccloud.android,ColorFormatter,strip_colors,Complex Method
+irccloud,com.irccloud.android,ColorFormatter,strip_colors,Empty catch clause
+irccloud,com.irccloud.android,ColorFormatter,strip_colors,Long Statement
+irccloud,com.irccloud.android,ColorFormatter,strip_colors,Magic Number
+irccloud,com.irccloud.android,TypefaceSpan,updateDrawState,Magic Number
+irccloud,com.irccloud.android,LargeSpan,updateMeasureState,Magic Number
+irccloud,com.irccloud.android,LargeSpan,updateDrawState,Magic Number
+irccloud,com.irccloud.android,ColorScheme,getUserTheme,Long Statement
+irccloud,com.irccloud.android,ColorScheme,getIRCColor,Magic Number
+irccloud,com.irccloud.android,ColorScheme,getTheme,Complex Method
+irccloud,com.irccloud.android,ColorScheme,getTheme,Long Statement
+irccloud,com.irccloud.android,ColorScheme,getTheme,Missing default
+irccloud,com.irccloud.android,ColorScheme,getSystemDarkMode,Long Statement
+irccloud,com.irccloud.android,ColorScheme,getSystemDarkMode,Magic Number
+irccloud,com.irccloud.android,ColorScheme,defaultTheme,Magic Number
+irccloud,com.irccloud.android,ColorScheme,getDialogTheme,Complex Method
+irccloud,com.irccloud.android,ColorScheme,getDialogTheme,Missing default
+irccloud,com.irccloud.android,ColorScheme,getDialogWhenLargeTheme,Complex Method
+irccloud,com.irccloud.android,ColorScheme,getDialogWhenLargeTheme,Missing default
+irccloud,com.irccloud.android,ColorScheme,colorForNick,Long Statement
+irccloud,com.irccloud.android,ColorScheme,colorForNick,Magic Number
+irccloud,com.irccloud.android,ColorScheme,setThemeFromContext,Long Identifier
+irccloud,com.irccloud.android,ColorScheme,setThemeFromContext,Long Method
+irccloud,com.irccloud.android,DownloadCompletedReceiver,onReceive,Long Statement
+irccloud,com.irccloud.android,DownloadCompletedReceiver,onReceive,Magic Number
+irccloud,com.irccloud.android,FCMService,onMessageReceived,Complex Conditional
+irccloud,com.irccloud.android,FCMService,onMessageReceived,Complex Method
+irccloud,com.irccloud.android,FCMService,onMessageReceived,Long Statement
+irccloud,com.irccloud.android,FontAwesome,getTypeface,Long Statement
+irccloud,com.irccloud.android,HTTPFetcher,HTTPFetcher,Complex Conditional
+irccloud,com.irccloud.android,HTTPFetcher,HTTPFetcher,Empty catch clause
+irccloud,com.irccloud.android,HTTPFetcher,HTTPFetcher,Long Statement
+irccloud,com.irccloud.android,HTTPFetcher,run,Complex Conditional
+irccloud,com.irccloud.android,HTTPFetcher,run,Empty catch clause
+irccloud,com.irccloud.android,HTTPFetcher,run,Long Statement
+irccloud,com.irccloud.android,HTTPFetcher,run,Magic Number
+irccloud,com.irccloud.android,HTTPFetcher,connect,Complex Conditional
+irccloud,com.irccloud.android,HTTPFetcher,connect,Complex Method
+irccloud,com.irccloud.android,HTTPFetcher,connect,Magic Number
+irccloud,com.irccloud.android,HTTPFetcher,run,Complex Method
+irccloud,com.irccloud.android,HTTPFetcher,http_thread,Complex Conditional
+irccloud,com.irccloud.android,HTTPFetcher,http_thread,Complex Method
+irccloud,com.irccloud.android,HTTPFetcher,http_thread,Empty catch clause
+irccloud,com.irccloud.android,HTTPFetcher,http_thread,Long Statement
+irccloud,com.irccloud.android,HTTPFetcher,http_thread,Magic Number
+irccloud,com.irccloud.android,ConnectRunnable,run,Complex Conditional
+irccloud,com.irccloud.android,ConnectRunnable,run,Empty catch clause
+irccloud,com.irccloud.android,ConnectRunnable,run,Long Statement
+irccloud,com.irccloud.android,ConnectRunnable,run,Magic Number
+irccloud,com.irccloud.android,IRCCloudApplication,onCreate,Long Statement
+irccloud,com.irccloud.android,IRCCloudApplication,onPause,Complex Conditional
+irccloud,com.irccloud.android,IRCCloudApplication,onPause,Complex Method
+irccloud,com.irccloud.android,IRCCloudApplication,onPause,Empty catch clause
+irccloud,com.irccloud.android,IRCCloudApplication,onPause,Long Statement
+irccloud,com.irccloud.android,IRCCloudApplication,onPause,Magic Number
+irccloud,com.irccloud.android,IRCCloudApplication,run,Complex Conditional
+irccloud,com.irccloud.android,IRCCloudApplication,run,Complex Method
+irccloud,com.irccloud.android,IRCCloudApplication,run,Empty catch clause
+irccloud,com.irccloud.android,IRCCloudApplication,run,Long Statement
+irccloud,com.irccloud.android,IRCCloudApplication,run,Magic Number
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,doInBackground,Empty catch clause
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,doInBackground,Long Statement
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,doInBackground,Magic Number
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,onPostExecute,Complex Method
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,onPostExecute,Long Statement
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,onPostExecute,Magic Number
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,handleMovementKey,Complex Method
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,handleMovementKey,Long Parameter List
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,launchURI,Long Statement
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,launchBrowser,Complex Conditional
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,launchBrowser,Long Statement
+irccloud,com.irccloud.android,IRCCloudLinkMovementMethod,launchBrowser,Magic Number
+irccloud,com.irccloud.android,FetchFileIDTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android,FetchFileIDTask,doInBackground,Long Statement
+irccloud,com.irccloud.android,FetchFileIDTask,doInBackground,Magic Number
+irccloud,com.irccloud.android,FetchFileIDTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android,FetchFileIDTask,onPostExecute,Complex Method
+irccloud,com.irccloud.android,FetchFileIDTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android,FetchFileIDTask,onPostExecute,Magic Number
+irccloud,com.irccloud.android,IRCCloudLog,Log,Complex Method
+irccloud,com.irccloud.android,IRCCloudLog,Log,Magic Number
+irccloud,com.irccloud.android,IRCEditText,init,Complex Method
+irccloud,com.irccloud.android,IRCEditText,init,Long Method
+irccloud,com.irccloud.android,IRCEditText,init,Magic Number
+irccloud,com.irccloud.android,IRCEditText,onTextChanged,Complex Method
+irccloud,com.irccloud.android,IRCEditText,onTextChanged,Long Method
+irccloud,com.irccloud.android,IRCEditText,afterTextChanged,Complex Method
+irccloud,com.irccloud.android,IRCEditText,afterTextChanged,Magic Number
+irccloud,com.irccloud.android,IRCEditText,onKeyUp,Complex Conditional
+irccloud,com.irccloud.android,IRCEditText,onKeyUp,Magic Number
+irccloud,com.irccloud.android,IRCEditText,setText,Empty catch clause
+irccloud,com.irccloud.android,IRCEditText,applyTypingSpans,Complex Conditional
+irccloud,com.irccloud.android,IRCEditText,applyTypingSpans,Long Statement
+irccloud,com.irccloud.android,IRCEditText,toIRC,Complex Conditional
+irccloud,com.irccloud.android,IRCEditText,toIRC,Complex Method
+irccloud,com.irccloud.android,IRCEditText,toIRC,Long Statement
+irccloud,com.irccloud.android,IRCEditText,toIRC,Magic Number
+irccloud,com.irccloud.android,IRCEditText,shouldRemoveSpan,Long Statement
+irccloud,com.irccloud.android,IRCEditText,compare,Long Statement
+irccloud,com.irccloud.android,IRCEditText,updateSpans,Complex Conditional
+irccloud,com.irccloud.android,IRCEditText,updateSpans,Complex Method
+irccloud,com.irccloud.android,IRCEditText,updateSpans,Long Statement
+irccloud,com.irccloud.android,IRCEditText,onSelectionChanged,Complex Conditional
+irccloud,com.irccloud.android,IRCEditText,onSelectionChanged,Complex Method
+irccloud,com.irccloud.android,IRCEditText,onSelectionChanged,Long Statement
+irccloud,com.irccloud.android,IRCEditText,splitSpan,Complex Method
+irccloud,com.irccloud.android,IRCEditText,splitSpan,Long Statement
+irccloud,com.irccloud.android,JSONFetcher,onStreamConnected,Magic Number
+irccloud,com.irccloud.android,ListViewHax,layoutChildren,Empty catch clause
+irccloud,com.irccloud.android,ListViewHax,onInitializeAccessibilityNodeInfoForItem,Empty catch clause
+irccloud,com.irccloud.android,ListViewHax,onInterceptTouchEvent,Empty catch clause
+irccloud,com.irccloud.android,ListViewHax,onTouchEvent,Empty catch clause
+irccloud,com.irccloud.android,MarkAsReadBroadcastReceiver,onReceive,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,onReceive,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,onReceive,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,onReceive,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,onReceive,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,NetworkConnection,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,NetworkConnection,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,NetworkConnection,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,NetworkConnection,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,onCapabilitiesChanged,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,onCapabilitiesChanged,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,onLost,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,disconnect,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,login,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,login,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,signup,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,signup,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,request_password,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,request_password,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,fetchConfig,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,fetchConfig,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,onConfig,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,onConfig,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,set_api_host,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,set_pastebin_cookie,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,logout,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,registerForConnectivity,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,registerForConnectivity,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,unregisterForConnectivity,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,unregisterForConnectivity,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,getEncryptedSharedPrefs,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,connect,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,connect,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,connect,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,connect,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,onStreamConnected,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,onConfig,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,onConfig,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,onConfig,Long Method
+irccloud,com.irccloud.android,NetworkConnection,onConfig,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,onConnect,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,onConnect,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,onMessage,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,closed,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,closed,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,closed,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,fail,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,logout,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,clearOfflineCache,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,send,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,send,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,heartbeat,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,reply,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,edit_message,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,postSay,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,postHeartbeat,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,postHeartbeat,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,kick,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,addServer,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,editServer,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,finalize_upload,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,edit_paste,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,request_backlog,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,schedule_idle_timer,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,parse,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,parse,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,parse,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,parse,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,parse,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,parse,Long Method
+irccloud,com.irccloud.android,NetworkConnection,parse,Missing default
+irccloud,com.irccloud.android,NetworkConnection,process_pending_edits,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,process_pending_edits,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,parse_object,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,parse_object,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,parse_object,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,parse_object,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,isWifi,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,fetch,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,fetch,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,fetch,Empty catch clause
+irccloud,com.irccloud.android,NetworkConnection,fetch,Long Method
+irccloud,com.irccloud.android,NetworkConnection,fetch,Long Parameter List
+irccloud,com.irccloud.android,NetworkConnection,fetch,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,fetch,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,removeHandler,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,notifyHandlers,Complex Method
+irccloud,com.irccloud.android,NetworkConnection,notifyHandlers,Magic Number
+irccloud,com.irccloud.android,NetworkConnection,notifyHandlers,Missing default
+irccloud,com.irccloud.android,NetworkConnection,UserInfo,Complex Conditional
+irccloud,com.irccloud.android,NetworkConnection,UserInfo,Long Statement
+irccloud,com.irccloud.android,NetworkConnection,sendFeedbackReport,Long Statement
+irccloud,com.irccloud.android,ConfigFetcher,onStreamConnected,Magic Number
+irccloud,com.irccloud.android,ConnectCallback,onConfig,Complex Conditional
+irccloud,com.irccloud.android,ConnectCallback,onConfig,Complex Method
+irccloud,com.irccloud.android,ConnectCallback,onConfig,Empty catch clause
+irccloud,com.irccloud.android,ConnectCallback,onConfig,Long Method
+irccloud,com.irccloud.android,ConnectCallback,onConfig,Long Statement
+irccloud,com.irccloud.android,ConnectCallback,onConfig,Magic Number
+irccloud,com.irccloud.android,ConnectCallback,onConnect,Long Statement
+irccloud,com.irccloud.android,ConnectCallback,onConnect,Magic Number
+irccloud,com.irccloud.android,ConnectCallback,onMessage,Complex Conditional
+irccloud,com.irccloud.android,ConnectCallback,closed,Complex Conditional
+irccloud,com.irccloud.android,ConnectCallback,closed,Empty catch clause
+irccloud,com.irccloud.android,ConnectCallback,closed,Long Statement
+irccloud,com.irccloud.android,UserInfo,UserInfo,Complex Conditional
+irccloud,com.irccloud.android,UserInfo,UserInfo,Long Statement
+irccloud,com.irccloud.android,NotificationDismissBroadcastReceiver,onReceive,Magic Number
+irccloud,com.irccloud.android,OffsetLinearLayout,onLayout,Long Parameter List
+irccloud,com.irccloud.android,OOBFetcher,onStreamConnected,Complex Method
+irccloud,com.irccloud.android,OOBFetcher,onStreamConnected,Empty catch clause
+irccloud,com.irccloud.android,OOBFetcher,onStreamConnected,Long Statement
+irccloud,com.irccloud.android,RemoteInputService,onHandleIntent,Complex Conditional
+irccloud,com.irccloud.android,RemoteInputService,onHandleIntent,Complex Method
+irccloud,com.irccloud.android,RemoteInputService,onHandleIntent,Long Statement
+irccloud,com.irccloud.android,RemoteInputService,onHandleIntent,Magic Number
+irccloud,com.irccloud.android,ShareActionProviderHax,subUiVisibilityChanged,Long Identifier
+irccloud,com.irccloud.android,ShareActionProviderHax,subUiVisibilityChanged,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,onPreExecute,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,addAvatar,Magic Number
+irccloud,com.irccloud.android.activity,AvatarsActivity,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,onResume,Empty catch clause
+irccloud,com.irccloud.android.activity,AvatarsActivity,onResume,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,run,Empty catch clause
+irccloud,com.irccloud.android.activity,AvatarsActivity,run,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,onClick,Empty catch clause
+irccloud,com.irccloud.android.activity,AvatarsActivity,onMultiWindowModeChanged,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,onMultiWindowModeChanged,Magic Number
+irccloud,com.irccloud.android.activity,AvatarsActivity,onRequestPermissionsResult,Complex Method
+irccloud,com.irccloud.android.activity,AvatarsActivity,onRequestPermissionsResult,Empty catch clause
+irccloud,com.irccloud.android.activity,AvatarsActivity,onRequestPermissionsResult,Long Identifier
+irccloud,com.irccloud.android.activity,AvatarsActivity,onRequestPermissionsResult,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,mediaPermissionsGranted,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,requestMediaPermissions,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,upload,Long Identifier
+irccloud,com.irccloud.android.activity,AvatarsActivity,upload,Long Statement
+irccloud,com.irccloud.android.activity,AvatarsActivity,onClick,Long Identifier
+irccloud,com.irccloud.android.activity,AvatarsActivity,onClick,Long Statement
+irccloud,com.irccloud.android.activity,RefreshTask,onPreExecute,Long Statement
+irccloud,com.irccloud.android.activity,RefreshTask,addAvatar,Magic Number
+irccloud,com.irccloud.android.activity,RefreshTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,BaseActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,BaseActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,BaseActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,BaseActivity,isMultiWindow,Long Statement
+irccloud,com.irccloud.android.activity,BaseActivity,onStop,Empty catch clause
+irccloud,com.irccloud.android.activity,BaseActivity,onConnectionFailed,Empty catch clause
+irccloud,com.irccloud.android.activity,BaseActivity,getDialogTextPrompt,Long Statement
+irccloud,com.irccloud.android.activity,BaseActivity,onResume,Complex Conditional
+irccloud,com.irccloud.android.activity,BaseActivity,onResume,Long Statement
+irccloud,com.irccloud.android.activity,BaseActivity,onPostResume,Long Statement
+irccloud,com.irccloud.android.activity,BaseActivity,onIRCEvent,Complex Method
+irccloud,com.irccloud.android.activity,BaseActivity,onIRCEvent,Long Method
+irccloud,com.irccloud.android.activity,BaseActivity,onIRCEvent,Long Statement
+irccloud,com.irccloud.android.activity,BaseActivity,onIRCEvent,Missing default
+irccloud,com.irccloud.android.activity,BaseActivity,showAlert,Empty catch clause
+irccloud,com.irccloud.android.activity,BaseActivity,run,Empty catch clause
+irccloud,com.irccloud.android.activity,BaseActivity,onClick,Empty catch clause
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onCreate,Missing default
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onClick,Long Statement
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onClick,Missing default
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onIRCResult,Long Statement
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onIRCResult,Missing default
+irccloud,com.irccloud.android.activity,EditConnectionActivity,run,Long Statement
+irccloud,com.irccloud.android.activity,EditConnectionActivity,run,Missing default
+irccloud,com.irccloud.android.activity,EditConnectionActivity,onIRCEvent,Missing default
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onCreate,Empty catch clause
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onCreate,Long Method
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,ImageViewerActivity,surfaceDestroyed,Empty catch clause
+irccloud,com.irccloud.android.activity,ImageViewerActivity,loadVideo,Empty catch clause
+irccloud,com.irccloud.android.activity,ImageViewerActivity,loadImage,Empty catch clause
+irccloud,com.irccloud.android.activity,ImageViewerActivity,loadImage,Long Statement
+irccloud,com.irccloud.android.activity,ImageViewerActivity,fail,Long Statement
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onStop,Empty catch clause
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onStart,Empty catch clause
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onStart,Long Statement
+irccloud,com.irccloud.android.activity,ImageViewerActivity,hide_actionbar,Magic Number
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onCreateOptionsMenu,Complex Conditional
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onCreateOptionsMenu,Long Statement
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onCreateOptionsMenu,Magic Number
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onOptionsItemSelected,Complex Method
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onOptionsItemSelected,Long Statement
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onOptionsItemSelected,Magic Number
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onRequestPermissionsResult,Complex Conditional
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onRequestPermissionsResult,Long Statement
+irccloud,com.irccloud.android.activity,ImageViewerActivity,onRequestPermissionsResult,Magic Number
+irccloud,com.irccloud.android.activity,ImgurAuthActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,ImgurAuthActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,ImgurAuthActivity,shouldOverrideUrlLoading,Magic Number
+irccloud,com.irccloud.android.activity,LogExportsActivity,onPreExecute,Long Statement
+irccloud,com.irccloud.android.activity,LogExportsActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,LogExportsActivity,onCreate,Long Method
+irccloud,com.irccloud.android.activity,LogExportsActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,LogExportsActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,LogExportsActivity,onClick,Complex Method
+irccloud,com.irccloud.android.activity,LogExportsActivity,onClick,Long Statement
+irccloud,com.irccloud.android.activity,LogExportsActivity,onClick,Magic Number
+irccloud,com.irccloud.android.activity,LogExportsActivity,onIRCResult,Long Statement
+irccloud,com.irccloud.android.activity,LogExportsActivity,run,Long Statement
+irccloud,com.irccloud.android.activity,LogExportsActivity,onItemClick,Long Statement
+irccloud,com.irccloud.android.activity,LogExportsActivity,onResume,Magic Number
+irccloud,com.irccloud.android.activity,LogExportsActivity,onMultiWindowModeChanged,Long Statement
+irccloud,com.irccloud.android.activity,LogExportsActivity,onMultiWindowModeChanged,Magic Number
+irccloud,com.irccloud.android.activity,FetchExportsTask,onPreExecute,Long Statement
+irccloud,com.irccloud.android.activity,LoginActivity,onCreate,Complex Conditional
+irccloud,com.irccloud.android.activity,LoginActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,LoginActivity,onCreate,Long Method
+irccloud,com.irccloud.android.activity,LoginActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,LoginActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,LoginActivity,onClick,Long Statement
+irccloud,com.irccloud.android.activity,LoginActivity,onSaveInstanceState,Complex Method
+irccloud,com.irccloud.android.activity,LoginActivity,login_or_connect,Complex Conditional
+irccloud,com.irccloud.android.activity,LoginActivity,login_or_connect,Long Statement
+irccloud,com.irccloud.android.activity,LoginActivity,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,LoginActivity,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,LoginActivity,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,LoginActivity,onPostExecute,Complex Method
+irccloud,com.irccloud.android.activity,LoginActivity,onPostExecute,Long Method
+irccloud,com.irccloud.android.activity,LoginActivity,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,LoginActivity,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,LoginActivity,trimHost,Long Statement
+irccloud,com.irccloud.android.activity,LoginActivity,trimHost,Magic Number
+irccloud,com.irccloud.android.activity,LoginTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,LoginTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,LoginTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,LoginTask,onPostExecute,Complex Method
+irccloud,com.irccloud.android.activity,LoginTask,onPostExecute,Long Method
+irccloud,com.irccloud.android.activity,LoginTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,AccessLinkTask,onPostExecute,Complex Method
+irccloud,com.irccloud.android.activity,ResetPasswordTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,ResetPasswordTask,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,EnterpriseConfigTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,EnterpriseConfigTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,startFormatActionMode,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,startFormatActionMode,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,startFormatActionMode,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,startFormatActionMode,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onCreateActionMode,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onCreateActionMode,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onPrepareActionMode,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onPrepareActionMode,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onActionItemClicked,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onCreate,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onCreate,Long Identifier
+irccloud,com.irccloud.android.activity,MainActivity,onCreate,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onSelectionChanged,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onKey,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onKey,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onIMEImageReceived,Long Identifier
+irccloud,com.irccloud.android.activity,MainActivity,onIMEImageReceived,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onFocusChange,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onEditorAction,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onEditorAction,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,afterTextChanged,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,afterTextChanged,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,afterTextChanged,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,afterTextChanged,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onClick,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onDrag,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onDrag,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onDrag,Long Identifier
+irccloud,com.irccloud.android.activity,MainActivity,onDrag,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,sendTypingStatus,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,sendTypingStatus,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,sendTypingStatus,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,sendTypingStatus,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,adjustTabletLayout,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,adjustTabletLayout,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,adjustTabletLayout,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onDestroy,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onDestroy,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,updateReconnecting,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,updateReconnecting,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,updateReconnecting,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,show_topic_popup,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,show_topic_popup,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,show_topic_popup,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,show_topic_popup,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,update_suggestions,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,update_suggestions,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,update_suggestions,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,update_suggestions,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,update_suggestions,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,run,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,run,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,run,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,nextSuggestion,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,nextSuggestion,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,nextSuggestion,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onSaveInstanceState,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onBackPressed,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onBackPressed,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onKeyUp,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onKeyUp,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,SendTask,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onPreExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onPreExecute,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onPreExecute,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onPreExecute,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,doInBackground,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onPostExecute,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onPostExecute,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,setFromIntent,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,setFromIntent,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,setFromIntent,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,setFromIntent,Long Identifier
+irccloud,com.irccloud.android.activity,MainActivity,setFromIntent,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,setFromIntent,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,setFromIntent,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,run,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onClick,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onNewIntent,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onNewIntent,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,open_last_selected_bid,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onResume,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onResume,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onResume,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onResume,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,onResume,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onResume,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onItemClick,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onItemClick,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onStart,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onStart,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onStop,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onPause,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onPause,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onPause,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,promptToJoin,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,open_uri,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,open_uri,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,open_uri,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,open_uri,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,open_uri,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,updateTypingIndicators,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,updateTypingIndicators,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,updateTypingIndicators,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,update_subtitle,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,update_subtitle,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,update_subtitle,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,update_subtitle,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,updateUsersListFragmentVisibility,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,updateUsersListFragmentVisibility,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,updateUsersListFragmentVisibility,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,updateUsersListFragmentVisibility,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,hide_keyboard,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onIRCEvent,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onIRCEvent,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onIRCEvent,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onIRCEvent,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,onIRCEvent,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onIRCEvent,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,run,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onCreateOptionsMenu,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onPrepareOptionsMenu,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onPrepareOptionsMenu,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onPrepareOptionsMenu,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onPrepareOptionsMenu,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,onPrepareOptionsMenu,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onProvideKeyboardShortcuts,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onProvideKeyboardShortcuts,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onDrawerStateChanged,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,makeTempCopy,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,makeTempCopy,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,makeTempCopy,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,isValidUploadPath,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,isValidUploadPath,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onActivityResult,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onActivityResult,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onActivityResult,Long Identifier
+irccloud,com.irccloud.android.activity,MainActivity,onActivityResult,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onActivityResult,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onRequestPermissionsResult,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onRequestPermissionsResult,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onRequestPermissionsResult,Long Identifier
+irccloud,com.irccloud.android.activity,MainActivity,onRequestPermissionsResult,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,mediaPermissionsGranted,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,requestMediaPermissions,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,insertPhoto,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,insertPhoto,Long Identifier
+irccloud,com.irccloud.android.activity,MainActivity,insertPhoto,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,insertPhoto,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onClick,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onClick,Long Identifier
+irccloud,com.irccloud.android.activity,MainActivity,onClick,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onOptionsItemSelected,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onOptionsItemSelected,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onOptionsItemSelected,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onOptionsItemSelected,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,onOptionsItemSelected,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,deleteBuffer,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,deleteBuffer,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,renameBuffer,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,editTopic,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,editTopic,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onUserDoubleClicked,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onUserDoubleClicked,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onUserDoubleClicked,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onUserDoubleClicked,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onBufferLongClicked,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onBufferLongClicked,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onBufferLongClicked,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onBufferLongClicked,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,onBufferLongClicked,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onClick,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,onMessageLongClicked,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onMessageLongClicked,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onMessageLongClicked,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onFailedMessageClicked,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onFailedMessageClicked,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onFailedMessageClicked,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onClick,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,showUserPopup,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,showUserPopup,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,showUserPopup,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,showUserPopup,Long Parameter List
+irccloud,com.irccloud.android.activity,MainActivity,showUserPopup,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,showUserPopup,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,shouldMarkAsRead,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,shouldMarkAsRead,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,setBuffer,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,setBuffer,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,setBuffer,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,setBuffer,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,setBuffer,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onMessageViewReady,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,onMessageViewReady,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,onMessageViewReady,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,addNetwork,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,addNetwork,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,loadThumbnail,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,loadThumbnail,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,loadThumbnail,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,loadThumbnail,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,resize,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,resize,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,resize,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,resize,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,setActivity,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,onProgressUpdate,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,onProgressUpdate,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,setText,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,setText,Empty catch clause
+irccloud,com.irccloud.android.activity,MainActivity,setText,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,setText,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,copy,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,FileUploadTask,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,FileUploadTask,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,FileUploadTask,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,show_dialog,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,show_dialog,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,show_dialog,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,run,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,finalize_upload,Complex Conditional
+irccloud,com.irccloud.android.activity,MainActivity,finalize_upload,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,finalize_upload,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,onIRCResult,Complex Method
+irccloud,com.irccloud.android.activity,MainActivity,doInBackground,Long Method
+irccloud,com.irccloud.android.activity,MainActivity,onProgressUpdate,Long Statement
+irccloud,com.irccloud.android.activity,MainActivity,hide_progress,Magic Number
+irccloud,com.irccloud.android.activity,MainActivity,show_alert,Empty catch clause
+irccloud,com.irccloud.android.activity,SendTask,SendTask,Long Statement
+irccloud,com.irccloud.android.activity,SendTask,onPreExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,SendTask,onPreExecute,Complex Method
+irccloud,com.irccloud.android.activity,SendTask,onPreExecute,Long Statement
+irccloud,com.irccloud.android.activity,SendTask,onPreExecute,Magic Number
+irccloud,com.irccloud.android.activity,SendTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,SendTask,doInBackground,Complex Method
+irccloud,com.irccloud.android.activity,SendTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,SendTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,SendTask,onPostExecute,Complex Method
+irccloud,com.irccloud.android.activity,SendTask,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,SendTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,SendTask,onPostExecute,Magic Number
+irccloud,com.irccloud.android.activity,RefreshUpIndicatorTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,RefreshUpIndicatorTask,doInBackground,Complex Method
+irccloud,com.irccloud.android.activity,RefreshUpIndicatorTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,RefreshUpIndicatorTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,ExcludeBIDTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,ToggleListener,onDrawerStateChanged,Magic Number
+irccloud,com.irccloud.android.activity,ImgurRefreshTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,ImgurRefreshTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,ImgurRefreshTask,onPostExecute,Complex Method
+irccloud,com.irccloud.android.activity,ImgurUploadTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,ImgurUploadTask,doInBackground,Complex Method
+irccloud,com.irccloud.android.activity,ImgurUploadTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,ImgurUploadTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,ImgurUploadTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,ImgurUploadTask,setActivity,Magic Number
+irccloud,com.irccloud.android.activity,ImgurUploadTask,onProgressUpdate,Empty catch clause
+irccloud,com.irccloud.android.activity,ImgurUploadTask,onProgressUpdate,Magic Number
+irccloud,com.irccloud.android.activity,ImgurUploadTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,ImgurUploadTask,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,ImgurUploadTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,ImgurUploadTask,onPostExecute,Magic Number
+irccloud,com.irccloud.android.activity,ImgurUploadTask,setText,Complex Method
+irccloud,com.irccloud.android.activity,ImgurUploadTask,setText,Empty catch clause
+irccloud,com.irccloud.android.activity,ImgurUploadTask,setText,Long Statement
+irccloud,com.irccloud.android.activity,ImgurUploadTask,setText,Magic Number
+irccloud,com.irccloud.android.activity,ImgurUploadTask,copy,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,FileUploadTask,Complex Method
+irccloud,com.irccloud.android.activity,FileUploadTask,FileUploadTask,Long Statement
+irccloud,com.irccloud.android.activity,FileUploadTask,FileUploadTask,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,show_dialog,Complex Method
+irccloud,com.irccloud.android.activity,FileUploadTask,show_dialog,Long Method
+irccloud,com.irccloud.android.activity,FileUploadTask,show_dialog,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,run,Complex Method
+irccloud,com.irccloud.android.activity,FileUploadTask,run,Long Method
+irccloud,com.irccloud.android.activity,FileUploadTask,run,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,finalize_upload,Complex Conditional
+irccloud,com.irccloud.android.activity,FileUploadTask,finalize_upload,Complex Method
+irccloud,com.irccloud.android.activity,FileUploadTask,finalize_upload,Long Statement
+irccloud,com.irccloud.android.activity,FileUploadTask,onIRCResult,Complex Method
+irccloud,com.irccloud.android.activity,FileUploadTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,FileUploadTask,doInBackground,Complex Method
+irccloud,com.irccloud.android.activity,FileUploadTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,FileUploadTask,doInBackground,Long Method
+irccloud,com.irccloud.android.activity,FileUploadTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,FileUploadTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,setActivity,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,onProgressUpdate,Empty catch clause
+irccloud,com.irccloud.android.activity,FileUploadTask,onProgressUpdate,Long Statement
+irccloud,com.irccloud.android.activity,FileUploadTask,onProgressUpdate,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,FileUploadTask,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,FileUploadTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,FileUploadTask,copy,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,hide_progress,Magic Number
+irccloud,com.irccloud.android.activity,FileUploadTask,show_alert,Empty catch clause
+irccloud,com.irccloud.android.activity,FileUploadTask,onClick,Empty catch clause
+irccloud,com.irccloud.android.activity,GcmTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onFailure,Long Statement
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,run,Long Statement
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onCreate,Complex Conditional
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onCreate,Long Method
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,afterTextChanged,Magic Number
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onTabSelected,Magic Number
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onMultiWindowModeChanged,Long Statement
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,onMultiWindowModeChanged,Magic Number
+irccloud,com.irccloud.android.activity,PastebinEditorActivity,extension,Complex Conditional
+irccloud,com.irccloud.android.activity,FetchPastebinTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,PastebinsActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,PastebinsActivity,onScroll,Magic Number
+irccloud,com.irccloud.android.activity,PastebinsActivity,onMultiWindowModeChanged,Long Statement
+irccloud,com.irccloud.android.activity,PastebinsActivity,onMultiWindowModeChanged,Magic Number
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onPreExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onPreExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onPreExecute,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onCreate,Complex Conditional
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onCreate,Empty catch clause
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,shouldOverrideUrlLoading,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onConsoleMessage,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onMultiWindowModeChanged,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onMultiWindowModeChanged,Magic Number
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onCustomTabsServiceConnected,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onStart,Empty catch clause
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onStart,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onStop,Empty catch clause
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onBackPressed,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onBackPressed,Magic Number
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onPrepareOptionsMenu,Complex Conditional
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onPrepareOptionsMenu,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onOptionsItemSelected,Complex Method
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onOptionsItemSelected,Long Statement
+irccloud,com.irccloud.android.activity,PastebinViewerActivity,onOptionsItemSelected,Magic Number
+irccloud,com.irccloud.android.activity,FetchPastebinTask,onPreExecute,Complex Conditional
+irccloud,com.irccloud.android.activity,FetchPastebinTask,onPreExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,FetchPastebinTask,onPreExecute,Long Statement
+irccloud,com.irccloud.android.activity,FetchPastebinTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,FetchPastebinTask,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.activity,PreferencesActivity,onMultiWindowModeChanged,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,onMultiWindowModeChanged,Magic Number
+irccloud,com.irccloud.android.activity,PreferencesActivity,addPreferences,Complex Conditional
+irccloud,com.irccloud.android.activity,PreferencesActivity,addPreferences,Complex Method
+irccloud,com.irccloud.android.activity,PreferencesActivity,addPreferences,Long Method
+irccloud,com.irccloud.android.activity,PreferencesActivity,addPreferences,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceChange,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,onResume,Complex Conditional
+irccloud,com.irccloud.android.activity,PreferencesActivity,onResume,Complex Method
+irccloud,com.irccloud.android.activity,PreferencesActivity,onResume,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,onResume,Magic Number
+irccloud,com.irccloud.android.activity,PreferencesActivity,onIRCEvent,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,run,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceChange,Magic Number
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceChange,Complex Conditional
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceChange,Complex Method
+irccloud,com.irccloud.android.activity,PreferencesActivity,onClick,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,PreferencesActivity,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,PreferencesActivity,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,PreferencesActivity,onIRCResult,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceClick,Complex Method
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceClick,Long Method
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceClick,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceClick,Magic Number
+irccloud,com.irccloud.android.activity,PreferencesActivity,onClick,Complex Method
+irccloud,com.irccloud.android.activity,PreferencesActivity,onRequestPermissionsResult,Long Identifier
+irccloud,com.irccloud.android.activity,PreferencesActivity,onRequestPermissionsResult,Long Statement
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceClick,Empty catch clause
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceClick,Long Identifier
+irccloud,com.irccloud.android.activity,PreferencesActivity,onClick,Empty catch clause
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceClick,Complex Conditional
+irccloud,com.irccloud.android.activity,PreferencesActivity,onPreferenceClick,Missing default
+irccloud,com.irccloud.android.activity,PreferencesActivity,onClick,Magic Number
+irccloud,com.irccloud.android.activity,PreferencesActivity,onClick,Missing default
+irccloud,com.irccloud.android.activity,PreferencesActivity,onIRCResult,Complex Method
+irccloud,com.irccloud.android.activity,PreferencesActivity,onIRCResult,Empty catch clause
+irccloud,com.irccloud.android.activity,PreferencesActivity,onIRCResult,Magic Number
+irccloud,com.irccloud.android.activity,PreferencesActivity,onIRCResult,Missing default
+irccloud,com.irccloud.android.activity,PreferencesActivity,onResult,Empty catch clause
+irccloud,com.irccloud.android.activity,PreferencesActivity,onResult,Magic Number
+irccloud,com.irccloud.android.activity,PreferencesActivity,onShow,Magic Number
+irccloud,com.irccloud.android.activity,SavePreferencesTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.activity,SavePreferencesTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,SavePreferencesTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,SavePreferencesTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,SavePreferencesTask,onIRCResult,Long Statement
+irccloud,com.irccloud.android.activity,SavePreferencesTask,run,Long Statement
+irccloud,com.irccloud.android.activity,SaveSettingsTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.activity,SaveSettingsTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.activity,SaveSettingsTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.activity,SaveSettingsTask,onIRCResult,Long Statement
+irccloud,com.irccloud.android.activity,SaveSettingsTask,run,Long Statement
+irccloud,com.irccloud.android.activity,QuickReplyActivity,getView,Complex Method
+irccloud,com.irccloud.android.activity,QuickReplyActivity,getView,Long Statement
+irccloud,com.irccloud.android.activity,QuickReplyActivity,getView,Magic Number
+irccloud,com.irccloud.android.activity,QuickReplyActivity,onCreate,Complex Conditional
+irccloud,com.irccloud.android.activity,QuickReplyActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,QuickReplyActivity,onEditorAction,Complex Conditional
+irccloud,com.irccloud.android.activity,QuickReplyActivity,onEditorAction,Long Statement
+irccloud,com.irccloud.android.activity,QuickReplyActivity,onKey,Complex Conditional
+irccloud,com.irccloud.android.activity,QuickReplyActivity,onKey,Long Statement
+irccloud,com.irccloud.android.activity,QuickReplyActivity,onResume,Long Statement
+irccloud,com.irccloud.android.activity,MessagesAdapter,getView,Complex Method
+irccloud,com.irccloud.android.activity,MessagesAdapter,getView,Long Statement
+irccloud,com.irccloud.android.activity,MessagesAdapter,getView,Magic Number
+irccloud,com.irccloud.android.activity,SAMLAuthActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,SAMLAuthActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,SAMLAuthActivity,shouldOverrideUrlLoading,Magic Number
+irccloud,com.irccloud.android.activity,ShareChooserActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,ShareChooserActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,ShareChooserActivity,onResume,Long Statement
+irccloud,com.irccloud.android.activity,ShareChooserActivity,updateReconnecting,Complex Method
+irccloud,com.irccloud.android.activity,ShareChooserActivity,updateReconnecting,Magic Number
+irccloud,com.irccloud.android.activity,ShareChooserActivity,onIRCEvent,Complex Method
+irccloud,com.irccloud.android.activity,UploadsActivity,addFile,Complex Conditional
+irccloud,com.irccloud.android.activity,UploadsActivity,addFile,Long Parameter List
+irccloud,com.irccloud.android.activity,UploadsActivity,addFile,Long Statement
+irccloud,com.irccloud.android.activity,UploadsActivity,addFile,Magic Number
+irccloud,com.irccloud.android.activity,UploadsActivity,getView,Complex Method
+irccloud,com.irccloud.android.activity,UploadsActivity,getView,Magic Number
+irccloud,com.irccloud.android.activity,UploadsActivity,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,UploadsActivity,onPostExecute,Magic Number
+irccloud,com.irccloud.android.activity,UploadsActivity,onClick,Long Statement
+irccloud,com.irccloud.android.activity,UploadsActivity,onIRCResult,Long Statement
+irccloud,com.irccloud.android.activity,UploadsActivity,run,Long Statement
+irccloud,com.irccloud.android.activity,UploadsActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,UploadsActivity,onCreate,Long Method
+irccloud,com.irccloud.android.activity,UploadsActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,UploadsActivity,onScroll,Magic Number
+irccloud,com.irccloud.android.activity,UploadsActivity,onMultiWindowModeChanged,Long Statement
+irccloud,com.irccloud.android.activity,UploadsActivity,onMultiWindowModeChanged,Magic Number
+irccloud,com.irccloud.android.activity,FilesAdapter,addFile,Complex Conditional
+irccloud,com.irccloud.android.activity,FilesAdapter,addFile,Long Parameter List
+irccloud,com.irccloud.android.activity,FilesAdapter,addFile,Long Statement
+irccloud,com.irccloud.android.activity,FilesAdapter,addFile,Magic Number
+irccloud,com.irccloud.android.activity,FilesAdapter,getView,Complex Method
+irccloud,com.irccloud.android.activity,FilesAdapter,getView,Magic Number
+irccloud,com.irccloud.android.activity,FetchFilesTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android.activity,FetchFilesTask,onPostExecute,Magic Number
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,run,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,run,Magic Number
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCreate,Complex Method
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCreate,Empty catch clause
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCreate,Long Method
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCreate,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCreate,Magic Number
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onTouch,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onError,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onError,Magic Number
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onClick,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onClick,Magic Number
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onStop,Empty catch clause
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCustomTabsServiceConnected,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onStart,Empty catch clause
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onStart,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onDestroy,Empty catch clause
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,hide_actionbar,Magic Number
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCreateOptionsMenu,Complex Conditional
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCreateOptionsMenu,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onCreateOptionsMenu,Magic Number
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onOptionsItemSelected,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onRequestPermissionsResult,Complex Conditional
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onRequestPermissionsResult,Long Statement
+irccloud,com.irccloud.android.activity,VideoPlayerActivity,onRequestPermissionsResult,Magic Number
+irccloud,com.irccloud.android.data,IRCCloudDatabase,getInstance,Long Statement
+irccloud,com.irccloud.android.data,IRCCloudDatabase,getInstance,Magic Number
+irccloud,com.irccloud.android.data.collection,AvatarsList,SHORTCUT_ICON_SIZE,Long Statement
+irccloud,com.irccloud.android.data.collection,AvatarsList,SHORTCUT_ICON_SIZE,Magic Number
+irccloud,com.irccloud.android.data.collection,AvatarsList,getIconForBuffer,Complex Conditional
+irccloud,com.irccloud.android.data.collection,AvatarsList,getIconForBuffer,Complex Method
+irccloud,com.irccloud.android.data.collection,AvatarsList,getIconForBuffer,Long Statement
+irccloud,com.irccloud.android.data.collection,AvatarsList,getIconForBuffer,Magic Number
+irccloud,com.irccloud.android.data.collection,BuffersList,compare,Complex Conditional
+irccloud,com.irccloud.android.data.collection,BuffersList,compare,Complex Method
+irccloud,com.irccloud.android.data.collection,BuffersList,createBuffer,Long Parameter List
+irccloud,com.irccloud.android.data.collection,BuffersList,getBuffers,Complex Method
+irccloud,com.irccloud.android.data.collection,comparator,compare,Complex Conditional
+irccloud,com.irccloud.android.data.collection,comparator,compare,Complex Method
+irccloud,com.irccloud.android.data.collection,ChannelsList,createChannel,Long Parameter List
+irccloud,com.irccloud.android.data.collection,EventsList,EventsList,Magic Number
+irccloud,com.irccloud.android.data.collection,EventsList,format,Long Statement
+irccloud,com.irccloud.android.data.collection,EventsList,format,Complex Conditional
+irccloud,com.irccloud.android.data.collection,EventsList,format,Complex Method
+irccloud,com.irccloud.android.data.collection,EventsList,addEvent,Complex Conditional
+irccloud,com.irccloud.android.data.collection,EventsList,addEvent,Complex Method
+irccloud,com.irccloud.android.data.collection,EventsList,addEvent,Long Statement
+irccloud,com.irccloud.android.data.collection,EventsList,deleteEvent,Complex Conditional
+irccloud,com.irccloud.android.data.collection,EventsList,lastEidForBuffer,Complex Conditional
+irccloud,com.irccloud.android.data.collection,EventsList,pruneEvents,Complex Conditional
+irccloud,com.irccloud.android.data.collection,EventsList,pruneEvents,Magic Number
+irccloud,com.irccloud.android.data.collection,EventsList,findPendingEventForReqid,Complex Conditional
+irccloud,com.irccloud.android.data.collection,EventsList,clearPendingEvents,Empty catch clause
+irccloud,com.irccloud.android.data.collection,EventsList,reason,Complex Conditional
+irccloud,com.irccloud.android.data.collection,EventsList,SSLreason,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,isImageURL,Complex Conditional
+irccloud,com.irccloud.android.data.collection,ImageList,isImageURL,Empty catch clause
+irccloud,com.irccloud.android.data.collection,ImageList,isImageURL,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,prune,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,isFailedURL,Empty catch clause
+irccloud,com.irccloud.android.data.collection,ImageList,isFailedURL,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,getGIF,Empty catch clause
+irccloud,com.irccloud.android.data.collection,ImageList,getGIF,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,getImage,Complex Method
+irccloud,com.irccloud.android.data.collection,ImageList,getImage,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,getImage,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,onHeaderDecoded,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,getImage,Empty catch clause
+irccloud,com.irccloud.android.data.collection,ImageList,loadScaledBitmap,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,loadScaledBitmap,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImage,Complex Conditional
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImage,Complex Method
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImage,Long Method
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImage,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImage,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,run,Complex Conditional
+irccloud,com.irccloud.android.data.collection,ImageList,run,Complex Method
+irccloud,com.irccloud.android.data.collection,ImageList,run,Long Method
+irccloud,com.irccloud.android.data.collection,ImageList,run,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,run,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,cacheFile,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,MD5,Empty catch clause
+irccloud,com.irccloud.android.data.collection,ImageList,MD5,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImageInfo,Complex Conditional
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImageInfo,Complex Method
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImageInfo,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,fetchImageInfo,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.data.collection,ImageList,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.data.collection,ImageList,doInBackground,Long Statement
+irccloud,com.irccloud.android.data.collection,ImageList,onPostExecute,Magic Number
+irccloud,com.irccloud.android.data.collection,ImageList,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.data.collection,ImageList,onPostExecute,Long Statement
+irccloud,com.irccloud.android.data.collection,OEmbedTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.data.collection,OEmbedTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.data.collection,OEmbedTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.data.collection,OEmbedTask,onPostExecute,Magic Number
+irccloud,com.irccloud.android.data.collection,ImgurTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.data.collection,ImgurTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.data.collection,ImgurTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.data.collection,ImgurTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android.data.collection,GiphyTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.data.collection,GiphyTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.data.collection,ClLyTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.data.collection,WikiTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.data.collection,XKCDTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.data.collection,LogExportsList,create,Complex Method
+irccloud,com.irccloud.android.data.collection,LogExportsList,create,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,clear,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,clear,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,getServerNick,Complex Conditional
+irccloud,com.irccloud.android.data.collection,NotificationsList,getServerAvatarURL,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,addNotification,Long Parameter List
+irccloud,com.irccloud.android.data.collection,NotificationsList,deleteOldNotifications,Complex Method
+irccloud,com.irccloud.android.data.collection,NotificationsList,deleteOldNotifications,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,deleteOldNotifications,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,deleteNotificationsForBid,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,deleteNotificationsForBid,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,excludeBid,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,excludeBid,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,showNotifications,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,showOtherNotifications,Complex Conditional
+irccloud,com.irccloud.android.data.collection,NotificationsList,showOtherNotifications,Complex Method
+irccloud,com.irccloud.android.data.collection,NotificationsList,showOtherNotifications,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,showOtherNotifications,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,hasTouchWiz,Empty catch clause
+irccloud,com.irccloud.android.data.collection,NotificationsList,hasTouchWiz,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,createChannel,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,buildNotification,Complex Conditional
+irccloud,com.irccloud.android.data.collection,NotificationsList,buildNotification,Complex Method
+irccloud,com.irccloud.android.data.collection,NotificationsList,buildNotification,Long Method
+irccloud,com.irccloud.android.data.collection,NotificationsList,buildNotification,Long Parameter List
+irccloud,com.irccloud.android.data.collection,NotificationsList,buildNotification,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,buildNotification,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,showMessageNotifications,Complex Conditional
+irccloud,com.irccloud.android.data.collection,NotificationsList,showMessageNotifications,Complex Method
+irccloud,com.irccloud.android.data.collection,NotificationsList,showMessageNotifications,Empty catch clause
+irccloud,com.irccloud.android.data.collection,NotificationsList,showMessageNotifications,Long Method
+irccloud,com.irccloud.android.data.collection,NotificationsList,showMessageNotifications,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,showMessageNotifications,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,onImageFetched,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,alert,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,alert,Magic Number
+irccloud,com.irccloud.android.data.collection,NotificationsList,updateTeslaUnreadCount,Empty catch clause
+irccloud,com.irccloud.android.data.collection,NotificationsList,updateTeslaUnreadCount,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,addNotificationGroup,Long Statement
+irccloud,com.irccloud.android.data.collection,NotificationsList,pruneNotificationChannels,Complex Method
+irccloud,com.irccloud.android.data.collection,NotificationsList,pruneNotificationChannels,Empty catch clause
+irccloud,com.irccloud.android.data.collection,NotificationsList,pruneNotificationChannels,Long Statement
+irccloud,com.irccloud.android.data.collection,RecentConversationsList,updateConversation,Long Parameter List
+irccloud,com.irccloud.android.data.collection,RecentConversationsList,prune,Long Statement
+irccloud,com.irccloud.android.data.collection,RecentConversationsList,publishShortcuts,Empty catch clause
+irccloud,com.irccloud.android.data.collection,RecentConversationsList,publishShortcuts,Long Statement
+irccloud,com.irccloud.android.data.collection,ServersList,createServer,Long Parameter List
+irccloud,com.irccloud.android.data.collection,ServersList,getServer,Complex Conditional
+irccloud,com.irccloud.android.data.collection,UsersList,UsersList,Magic Number
+irccloud,com.irccloud.android.data.collection,UsersList,createUser,Long Parameter List
+irccloud,com.irccloud.android.data.collection,UsersList,updateAway,Complex Conditional
+irccloud,com.irccloud.android.data.collection,UsersList,updateAway,Long Statement
+irccloud,com.irccloud.android.data.collection,UsersList,updateAwayMsg,Complex Conditional
+irccloud,com.irccloud.android.data.collection,UsersList,updateAwayMsg,Long Statement
+irccloud,com.irccloud.android.data.collection,UsersList,getUser,Complex Conditional
+irccloud,com.irccloud.android.data.collection,UsersList,getUser,Long Statement
+irccloud,com.irccloud.android.data.collection,UsersList,findUserOnConnection,Complex Conditional
+irccloud,com.irccloud.android.data.collection,UsersList,findUserOnConnection,Long Statement
+irccloud,com.irccloud.android.data.model,Avatar,generateBitmap,Long Parameter List
+irccloud,com.irccloud.android.data.model,Avatar,generateBitmap,Magic Number
+irccloud,com.irccloud.android.data.model,Avatar,getBitmap,Complex Conditional
+irccloud,com.irccloud.android.data.model,Avatar,getBitmap,Long Statement
+irccloud,com.irccloud.android.data.model,Avatar,getBitmap,Magic Number
+irccloud,com.irccloud.android.data.model,Buffer,purgeExpiredTypingIndicators,Magic Number
+irccloud,com.irccloud.android.data.model,Buffer,toString,Long Statement
+irccloud,com.irccloud.android.data.model,Buffer,normalizedName,Complex Conditional
+irccloud,com.irccloud.android.data.model,Buffer,normalizedName,Magic Number
+irccloud,com.irccloud.android.data.model,Buffer,getDisplayName,Complex Conditional
+irccloud,com.irccloud.android.data.model,Buffer,setType,Complex Method
+irccloud,com.irccloud.android.data.model,Buffer,setType,Missing default
+irccloud,com.irccloud.android.data.model,Buffer,getUnread,Complex Conditional
+irccloud,com.irccloud.android.data.model,Buffer,getUnread,Complex Method
+irccloud,com.irccloud.android.data.model,Buffer,getUnread,Long Statement
+irccloud,com.irccloud.android.data.model,Buffer,getContentDescription,Complex Method
+irccloud,com.irccloud.android.data.model,Buffer,getTextColor,Complex Method
+irccloud,com.irccloud.android.data.model,Buffer,getIcon,Complex Conditional
+irccloud,com.irccloud.android.data.model,Buffer,getIcon,Complex Method
+irccloud,com.irccloud.android.data.model,Buffer,getBackgroundResource,Complex Conditional
+irccloud,com.irccloud.android.data.model,Buffer,getBackgroundResource,Long Statement
+irccloud,com.irccloud.android.data.model,Buffer,getSelectedBackgroundResource,Long Statement
+irccloud,com.irccloud.android.data.model,Buffer,getSelectedBorderResource,Long Statement
+irccloud,com.irccloud.android.data.model,Buffer,getBorderResource,Long Statement
+irccloud,com.irccloud.android.data.model,Buffer,getSpamIconColor,Magic Number
+irccloud,com.irccloud.android.data.model,Event,toString,Long Statement
+irccloud,com.irccloud.android.data.model,Event,toString,Magic Number
+irccloud,com.irccloud.android.data.model,Event,getTime,Magic Number
+irccloud,com.irccloud.android.data.model,Event,isImportant,Complex Conditional
+irccloud,com.irccloud.android.data.model,Event,isImportant,Complex Method
+irccloud,com.irccloud.android.data.model,Event,isMessage,Long Statement
+irccloud,com.irccloud.android.data.model,Event,getGravatar,Long Statement
+irccloud,com.irccloud.android.data.model,Event,getAvatarURL,Complex Conditional
+irccloud,com.irccloud.android.data.model,Event,getAvatarURL,Complex Method
+irccloud,com.irccloud.android.data.model,Event,getAvatarURL,Long Statement
+irccloud,com.irccloud.android.data.model,Event,getAvatarURL,Magic Number
+irccloud,com.irccloud.android.data.model,Event,reply,Complex Conditional
+irccloud,com.irccloud.android.data.model,Event,reply,Long Statement
+irccloud,com.irccloud.android.data.model,LogExport,getStartTime,Long Statement
+irccloud,com.irccloud.android.data.model,LogExport,getStartTime,Magic Number
+irccloud,com.irccloud.android.data.model,LogExport,getExpiryTime,Long Statement
+irccloud,com.irccloud.android.data.model,LogExport,getExpiryTime,Magic Number
+irccloud,com.irccloud.android.data.model,LogExport,getDownloadProgress,Long Statement
+irccloud,com.irccloud.android.data.model,LogExport,getDownloadProgress,Magic Number
+irccloud,com.irccloud.android.data.model,LogExport,getFileSize,Magic Number
+irccloud,com.irccloud.android.data.model,LogExport,download,Long Statement
+irccloud,com.irccloud.android.data.model,Notification,toString,Long Statement
+irccloud,com.irccloud.android.data.model,Pastebin,Pastebin,Magic Number
+irccloud,com.irccloud.android.data.model,Pastebin,setDate,Long Statement
+irccloud,com.irccloud.android.data.model,Pastebin,fetch,Long Statement
+irccloud,com.irccloud.android.data.model,Pastebin,save,Magic Number
+irccloud,com.irccloud.android.data.model,Pastebin,onIRCResult,Magic Number
+irccloud,com.irccloud.android.data.model,Server,isConnecting,Long Statement
+irccloud,com.irccloud.android.data.model,Server,isFailed,Long Statement
+irccloud,com.irccloud.android.data.model,Server,updateUserModes,Complex Conditional
+irccloud,com.irccloud.android.data.model,Server,updateUserModes,Long Statement
+irccloud,com.irccloud.android.data.model,Server,clientTagDeny,Complex Conditional
+irccloud,com.irccloud.android.data.model,Server,updateIgnores,Complex Method
+irccloud,com.irccloud.android.data.model,Server,updateIgnores,Long Statement
+irccloud,com.irccloud.android.data.model,Server,isSlack,Long Statement
+irccloud,com.irccloud.android.fragment,AcceptListFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,AcceptListFragment,setArguments,Complex Conditional
+irccloud,com.irccloud.android.fragment,AddChannelFragment,onResume,Long Statement
+irccloud,com.irccloud.android.fragment,AddChannelFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,BufferOptionsFragment,onClick,Long Statement
+irccloud,com.irccloud.android.fragment,BufferOptionsFragment,onResume,Complex Conditional
+irccloud,com.irccloud.android.fragment,BufferOptionsFragment,onResume,Complex Method
+irccloud,com.irccloud.android.fragment,BufferOptionsFragment,onResume,Long Method
+irccloud,com.irccloud.android.fragment,BufferOptionsFragment,onResume,Long Statement
+irccloud,com.irccloud.android.fragment,BufferOptionsFragment,onCreateDialog,Complex Conditional
+irccloud,com.irccloud.android.fragment,BufferOptionsFragment,onCreateDialog,Complex Method
+irccloud,com.irccloud.android.fragment,BufferOptionsFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,SaveClickListener,onClick,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,BufferListAdapter,Magic Number
+irccloud,com.irccloud.android.fragment,BuffersListFragment,setItems,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateCollapsed,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateBuffer,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateBuffer,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateBuffer,Empty catch clause
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateBuffer,Long Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateBuffer,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,run,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,unreadPositionAbove,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,unreadPositionBelow,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onBindViewHolder,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onBindViewHolder,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onBindViewHolder,Long Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onBindViewHolder,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onBindViewHolder,Magic Number
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onClick,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onClick,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onEditorAction,Magic Number
+irccloud,com.irccloud.android.fragment,BuffersListFragment,afterTextChanged,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,add,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,add,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,add,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,doInBackground,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.fragment,BuffersListFragment,doInBackground,Long Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,doInBackground,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,doInBackground,Magic Number
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onPostExecute,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onPostExecute,Magic Number
+irccloud,com.irccloud.android.fragment,BuffersListFragment,setSelectedBid,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,setSelectedBid,Magic Number
+irccloud,com.irccloud.android.fragment,BuffersListFragment,run,Magic Number
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateUnreadIndicators,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateUnreadIndicators,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,updateUnreadIndicators,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onCreateView,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onCreateView,Empty catch clause
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onCreateView,Long Statement
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onClick,Empty catch clause
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onSaveInstanceState,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onIRCEvent,Complex Conditional
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onIRCEvent,Complex Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onIRCEvent,Long Method
+irccloud,com.irccloud.android.fragment,BuffersListFragment,onIRCEvent,Missing default
+irccloud,com.irccloud.android.fragment,BufferListAdapter,BufferListAdapter,Magic Number
+irccloud,com.irccloud.android.fragment,BufferListAdapter,setItems,Complex Method
+irccloud,com.irccloud.android.fragment,BufferListAdapter,updateCollapsed,Complex Method
+irccloud,com.irccloud.android.fragment,BufferListAdapter,updateBuffer,Complex Conditional
+irccloud,com.irccloud.android.fragment,BufferListAdapter,updateBuffer,Complex Method
+irccloud,com.irccloud.android.fragment,BufferListAdapter,updateBuffer,Empty catch clause
+irccloud,com.irccloud.android.fragment,BufferListAdapter,updateBuffer,Long Method
+irccloud,com.irccloud.android.fragment,BufferListAdapter,updateBuffer,Long Statement
+irccloud,com.irccloud.android.fragment,BufferListAdapter,run,Long Statement
+irccloud,com.irccloud.android.fragment,BufferListAdapter,unreadPositionAbove,Complex Conditional
+irccloud,com.irccloud.android.fragment,BufferListAdapter,unreadPositionBelow,Complex Conditional
+irccloud,com.irccloud.android.fragment,BufferListAdapter,onBindViewHolder,Complex Conditional
+irccloud,com.irccloud.android.fragment,BufferListAdapter,onBindViewHolder,Complex Method
+irccloud,com.irccloud.android.fragment,BufferListAdapter,onBindViewHolder,Long Method
+irccloud,com.irccloud.android.fragment,BufferListAdapter,onBindViewHolder,Long Statement
+irccloud,com.irccloud.android.fragment,BufferListAdapter,onBindViewHolder,Magic Number
+irccloud,com.irccloud.android.fragment,BufferListAdapter,onClick,Complex Conditional
+irccloud,com.irccloud.android.fragment,BufferListAdapter,onClick,Complex Method
+irccloud,com.irccloud.android.fragment,BufferListAdapter,onEditorAction,Magic Number
+irccloud,com.irccloud.android.fragment,BufferListAdapter,afterTextChanged,Long Statement
+irccloud,com.irccloud.android.fragment,RefreshTask,add,Complex Conditional
+irccloud,com.irccloud.android.fragment,RefreshTask,add,Complex Method
+irccloud,com.irccloud.android.fragment,RefreshTask,add,Long Statement
+irccloud,com.irccloud.android.fragment,RefreshTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.fragment,RefreshTask,doInBackground,Complex Method
+irccloud,com.irccloud.android.fragment,RefreshTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.fragment,RefreshTask,doInBackground,Long Method
+irccloud,com.irccloud.android.fragment,RefreshTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.fragment,RefreshTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.fragment,RefreshTask,onPostExecute,Long Statement
+irccloud,com.irccloud.android.fragment,RefreshTask,onPostExecute,Magic Number
+irccloud,com.irccloud.android.fragment,ChannelListFragment,onCreateDialog,Complex Conditional
+irccloud,com.irccloud.android.fragment,ChannelListFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,ChannelListFragment,onIRCEvent,Long Statement
+irccloud,com.irccloud.android.fragment,ChannelListFragment,onIRCEvent,Missing default
+irccloud,com.irccloud.android.fragment,ChannelListFragment,run,Long Statement
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,onBindViewHolder,Complex Conditional
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,onBindViewHolder,Long Statement
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,onBindViewHolder,Magic Number
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,onCreateDialog,Empty catch clause
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,setArguments,Complex Conditional
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,setArguments,Long Statement
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,onResume,Long Statement
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,onIRCEvent,Long Statement
+irccloud,com.irccloud.android.fragment,ChannelModeListFragment,onIRCEvent,Missing default
+irccloud,com.irccloud.android.fragment,Adapter,onBindViewHolder,Complex Conditional
+irccloud,com.irccloud.android.fragment,Adapter,onBindViewHolder,Long Statement
+irccloud,com.irccloud.android.fragment,Adapter,onBindViewHolder,Magic Number
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,PresetServersAdapter,Empty catch clause
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,getDropDownView,Magic Number
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,init,Magic Number
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onItemSelected,Magic Number
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onNothingSelected,Magic Number
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onResume,Magic Number
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,save,Complex Method
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,save,Empty catch clause
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,save,Long Statement
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,save,Magic Number
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,save,Missing default
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onIRCResult,Complex Method
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onIRCResult,Empty catch clause
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onIRCResult,Long Statement
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onIRCResult,Missing default
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,run,Long Statement
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,run,Missing default
+irccloud,com.irccloud.android.fragment,EditConnectionFragment,onPreExecute,Long Statement
+irccloud,com.irccloud.android.fragment,PresetServersAdapter,PresetServersAdapter,Empty catch clause
+irccloud,com.irccloud.android.fragment,PresetServersAdapter,getDropDownView,Magic Number
+irccloud,com.irccloud.android.fragment,LoadNetworkPresets,onPreExecute,Long Statement
+irccloud,com.irccloud.android.fragment,IgnoreListFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,IgnoreListFragment,setArguments,Complex Conditional
+irccloud,com.irccloud.android.fragment,IgnoreListFragment,onIRCEvent,Missing default
+irccloud,com.irccloud.android.fragment,IRCColorPickerFragment,updateColors,Magic Number
+irccloud,com.irccloud.android.fragment,JumpToChannelFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,LinksListFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,LinksListFragment,setArguments,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onTouchEvent,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,MessageAdapter,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,getBacklogMarkerPosition,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertLastSeenEIDMarker,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertLastSeenEIDMarker,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertLastSeenEIDMarker,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,addItem,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,addItem,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,addItem,Long Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,addItem,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,addItem,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,format,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,format,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,format,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,format,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,refreshSoon,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,getView,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,getView,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,getView,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,getView,Long Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,getView,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,getView,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onImageFetched,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,draw,Long Parameter List
+irccloud,com.irccloud.android.fragment,MessageViewFragment,draw,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onCreateView,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onCreateView,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onCreateView,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onClick,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onClick,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,hideView,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,showView,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,drawerClosed,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,drawerClosed,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onScroll,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onScroll,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onScroll,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onScroll,Long Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onScroll,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onScroll,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onImageFetched,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onImageFetched,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,run,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,run,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,setArguments,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,setArguments,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,setArguments,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,setArguments,Long Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,setArguments,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onLowMemory,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEvent,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEvent,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEvent,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEvent,Long Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEvent,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEvent,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onImageInfo,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onImageInfo,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEntity,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEntity,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,insertEntity,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,run,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onClick,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onClick,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,run,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,run,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,doInBackground,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,doInBackground,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,doInBackground,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onPostExecute,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onPostExecute,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onPostExecute,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,refresh,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,refresh,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,refresh,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,refresh,Long Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,refresh,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,refresh,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_top_unread,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_top_unread,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_top_unread,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_unread,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_unread,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,ordinal,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,ordinal,Missing default
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_status,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_status,Long Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_status,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_status,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_global_msg,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,update_global_msg,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onPause,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onIRCEvent,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onIRCEvent,Complex Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onIRCEvent,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onIRCEvent,Long Method
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onIRCEvent,Long Statement
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onIRCEvent,Magic Number
+irccloud,com.irccloud.android.fragment,MessageViewFragment,onIRCEvent,Missing default
+irccloud,com.irccloud.android.fragment,LinkMovementMethodNoLongPress,onTouchEvent,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageAdapter,MessageAdapter,Magic Number
+irccloud,com.irccloud.android.fragment,MessageAdapter,getBacklogMarkerPosition,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageAdapter,insertLastSeenEIDMarker,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageAdapter,insertLastSeenEIDMarker,Complex Method
+irccloud,com.irccloud.android.fragment,MessageAdapter,insertLastSeenEIDMarker,Long Statement
+irccloud,com.irccloud.android.fragment,MessageAdapter,addItem,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageAdapter,addItem,Complex Method
+irccloud,com.irccloud.android.fragment,MessageAdapter,addItem,Long Method
+irccloud,com.irccloud.android.fragment,MessageAdapter,addItem,Long Statement
+irccloud,com.irccloud.android.fragment,MessageAdapter,addItem,Magic Number
+irccloud,com.irccloud.android.fragment,MessageAdapter,format,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageAdapter,format,Complex Method
+irccloud,com.irccloud.android.fragment,MessageAdapter,format,Long Statement
+irccloud,com.irccloud.android.fragment,MessageAdapter,format,Magic Number
+irccloud,com.irccloud.android.fragment,MessageAdapter,refreshSoon,Magic Number
+irccloud,com.irccloud.android.fragment,MessageAdapter,getView,Complex Conditional
+irccloud,com.irccloud.android.fragment,MessageAdapter,getView,Complex Method
+irccloud,com.irccloud.android.fragment,MessageAdapter,getView,Empty catch clause
+irccloud,com.irccloud.android.fragment,MessageAdapter,getView,Long Method
+irccloud,com.irccloud.android.fragment,MessageAdapter,getView,Long Statement
+irccloud,com.irccloud.android.fragment,MessageAdapter,getView,Magic Number
+irccloud,com.irccloud.android.fragment,MessageAdapter,onImageFetched,Magic Number
+irccloud,com.irccloud.android.fragment,MessageAdapter,draw,Long Parameter List
+irccloud,com.irccloud.android.fragment,MessageAdapter,draw,Magic Number
+irccloud,com.irccloud.android.fragment,OnItemClickListener,onClick,Complex Conditional
+irccloud,com.irccloud.android.fragment,OnItemClickListener,onClick,Complex Method
+irccloud,com.irccloud.android.fragment,OnItemClickListener,onClick,Long Statement
+irccloud,com.irccloud.android.fragment,OnItemClickListener,onClick,Magic Number
+irccloud,com.irccloud.android.fragment,OnItemClickListener,run,Complex Conditional
+irccloud,com.irccloud.android.fragment,OnItemClickListener,run,Complex Method
+irccloud,com.irccloud.android.fragment,OnItemClickListener,run,Long Statement
+irccloud,com.irccloud.android.fragment,OnItemClickListener,run,Magic Number
+irccloud,com.irccloud.android.fragment,HeartbeatTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.fragment,HeartbeatTask,doInBackground,Empty catch clause
+irccloud,com.irccloud.android.fragment,HeartbeatTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.fragment,HeartbeatTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.fragment,RefreshTask,onPostExecute,Complex Conditional
+irccloud,com.irccloud.android.fragment,RefreshTask,onPostExecute,Complex Method
+irccloud,com.irccloud.android.fragment,RefreshTask,onPostExecute,Empty catch clause
+irccloud,com.irccloud.android.fragment,RefreshTask,run,Complex Conditional
+irccloud,com.irccloud.android.fragment,RefreshTask,run,Empty catch clause
+irccloud,com.irccloud.android.fragment,RefreshTask,run,Long Statement
+irccloud,com.irccloud.android.fragment,LinkifyTask,doInBackground,Complex Conditional
+irccloud,com.irccloud.android.fragment,LinkifyTask,doInBackground,Complex Method
+irccloud,com.irccloud.android.fragment,LinkifyTask,doInBackground,Long Statement
+irccloud,com.irccloud.android.fragment,LinkifyTask,doInBackground,Magic Number
+irccloud,com.irccloud.android.fragment,NamesListFragment,onBindViewHolder,Long Statement
+irccloud,com.irccloud.android.fragment,NamesListFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,UsersAdapter,onBindViewHolder,Long Statement
+irccloud,com.irccloud.android.fragment,NickservFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,PinReorderFragment,drop,Long Statement
+irccloud,com.irccloud.android.fragment,PinReorderFragment,PinListAdapter,Long Statement
+irccloud,com.irccloud.android.fragment,PinReorderFragment,refresh,Complex Method
+irccloud,com.irccloud.android.fragment,PinReorderFragment,onCreateView,Magic Number
+irccloud,com.irccloud.android.fragment,PinReorderFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,PinReorderFragment,onCreateDialog,Magic Number
+irccloud,com.irccloud.android.fragment,PinReorderFragment,onIRCEvent,Missing default
+irccloud,com.irccloud.android.fragment,PinListAdapter,PinListAdapter,Long Statement
+irccloud,com.irccloud.android.fragment,ServerReorderFragment,ServerListAdapter,Long Statement
+irccloud,com.irccloud.android.fragment,ServerReorderFragment,onCreateView,Magic Number
+irccloud,com.irccloud.android.fragment,ServerReorderFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,ServerReorderFragment,onCreateDialog,Magic Number
+irccloud,com.irccloud.android.fragment,ServerReorderFragment,onIRCEvent,Missing default
+irccloud,com.irccloud.android.fragment,ServerListAdapter,ServerListAdapter,Long Statement
+irccloud,com.irccloud.android.fragment,SpamFragment,onCreateDialog,Complex Conditional
+irccloud,com.irccloud.android.fragment,SpamFragment,onCreateDialog,Complex Method
+irccloud,com.irccloud.android.fragment,SpamFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,SpamFragment,onClick,Long Statement
+irccloud,com.irccloud.android.fragment,TextListFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,TextListFragment,onDismiss,Long Statement
+irccloud,com.irccloud.android.fragment,TextListFragment,onCancel,Long Statement
+irccloud,com.irccloud.android.fragment,TextListFragment,setText,Long Statement
+irccloud,com.irccloud.android.fragment,TextListFragment,setText,Magic Number
+irccloud,com.irccloud.android.fragment,UsersListFragment,UserListAdapter,Magic Number
+irccloud,com.irccloud.android.fragment,UsersListFragment,buildItem,Long Parameter List
+irccloud,com.irccloud.android.fragment,UsersListFragment,addUsersFromList,Long Parameter List
+irccloud,com.irccloud.android.fragment,UsersListFragment,addUsersFromList,Long Statement
+irccloud,com.irccloud.android.fragment,UsersListFragment,refresh,Complex Conditional
+irccloud,com.irccloud.android.fragment,UsersListFragment,refresh,Complex Method
+irccloud,com.irccloud.android.fragment,UsersListFragment,refresh,Empty catch clause
+irccloud,com.irccloud.android.fragment,UsersListFragment,refresh,Long Method
+irccloud,com.irccloud.android.fragment,UsersListFragment,refresh,Long Statement
+irccloud,com.irccloud.android.fragment,UsersListFragment,setArguments,Empty catch clause
+irccloud,com.irccloud.android.fragment,UsersListFragment,setArguments,Magic Number
+irccloud,com.irccloud.android.fragment,UsersListFragment,run,Empty catch clause
+irccloud,com.irccloud.android.fragment,UsersListFragment,onClick,Complex Method
+irccloud,com.irccloud.android.fragment,UsersListFragment,onClick,Empty catch clause
+irccloud,com.irccloud.android.fragment,UsersListFragment,onClick,Magic Number
+irccloud,com.irccloud.android.fragment,UsersListFragment,onIRCEvent,Complex Method
+irccloud,com.irccloud.android.fragment,UsersListFragment,onIRCEvent,Missing default
+irccloud,com.irccloud.android.fragment,UserListAdapter,UserListAdapter,Magic Number
+irccloud,com.irccloud.android.fragment,UserListAdapter,buildItem,Long Parameter List
+irccloud,com.irccloud.android.fragment,OnItemClickListener,onClick,Empty catch clause
+irccloud,com.irccloud.android.fragment,OnItemClickListener,run,Empty catch clause
+irccloud,com.irccloud.android.fragment,WhoisFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,WhoisFragment,format_duration,Magic Number
+irccloud,com.irccloud.android.fragment,WhoisFragment,onResume,Complex Conditional
+irccloud,com.irccloud.android.fragment,WhoisFragment,onResume,Complex Method
+irccloud,com.irccloud.android.fragment,WhoisFragment,onResume,Long Method
+irccloud,com.irccloud.android.fragment,WhoisFragment,onResume,Long Statement
+irccloud,com.irccloud.android.fragment,WhoisFragment,onResume,Magic Number
+irccloud,com.irccloud.android.fragment,WhoListFragment,onBindViewHolder,Long Statement
+irccloud,com.irccloud.android.fragment,WhoListFragment,onBindViewHolder,Magic Number
+irccloud,com.irccloud.android.fragment,WhoListFragment,onLongClick,Long Statement
+irccloud,com.irccloud.android.fragment,WhoListFragment,onLongClick,Magic Number
+irccloud,com.irccloud.android.fragment,WhoListFragment,onClick,Long Statement
+irccloud,com.irccloud.android.fragment,WhoListFragment,onClick,Magic Number
+irccloud,com.irccloud.android.fragment,WhoListFragment,onCreateDialog,Long Statement
+irccloud,com.irccloud.android.fragment,UsersAdapter,onBindViewHolder,Magic Number
+irccloud,com.irccloud.android.fragment,UsersAdapter,onLongClick,Long Statement
+irccloud,com.irccloud.android.fragment,UsersAdapter,onLongClick,Magic Number
+irccloud,com.irccloud.android.fragment,UsersAdapter,onClick,Long Statement
+irccloud,com.irccloud.android.fragment,UsersAdapter,onClick,Magic Number
+irccloud,com.irccloud.android.fragment,WhoWasFragment,onCreateDialog,Long Statement
+irccloud,com.robobunny,SeekBarPreference,setValuesFromXml,Magic Number
+irccloud,com.robobunny,SeekBarPreference,updateView,Magic Number
+irccloud,org.chromium.customtabsclient.shared,CustomTabsHelper,getPackageNameToUse,Complex Conditional
+irccloud,org.chromium.customtabsclient.shared,CustomTabsHelper,getPackageNameToUse,Complex Method
+irccloud,org.chromium.customtabsclient.shared,CustomTabsHelper,getPackageNameToUse,Long Statement
+irccloud,org.everpeace,StringScore,score,Complex Method
+irccloud,org.everpeace,StringScore,score,Magic Number
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testOper1,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testOper2,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testOwner1,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testOwner2,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testOp,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testVoice,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testOpByServer,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testOpDeop,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testModeMode,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testJoinNickchangeModeModeMode,Long Statement
+irccloud,com.irccloud.android.test,CollapsedEventsTests,testNetSplit,Long Statement
+irccloud,com.irccloud.android.test,FormattingTests,testIrc_to_html,Long Statement
+irccloud,com.irccloud.android.test,FormattingTests,testUrls,Long Method
+irccloud,com.irccloud.android.test,FormattingTests,testUrls,Long Statement
+irccloud,com.irccloud.android.test,FormattingTests,testImages,Long Statement
+irccloud,com.irccloud.android.test,MessageTypeTests,testMessageTypes,Long Statement
+irccloud,com.irccloud.android.test,MessageTypeTests,testBufferOverlayTypes,Long Statement
+irccloud,com.irccloud.android.test,MessageTypeTests,testConnectionPromptTypes,Long Statement
+irccloud,com.irccloud.android.test,NotificationsTests,testAdd,Magic Number
+irccloud,com.irccloud.android.test,NotificationsTests,testEidUpdate,Magic Number
+irccloud,com.irccloud.android.test,NotificationsTests,testDismiss,Magic Number
+irccloud,com.irccloud.android.test,Screenshots,setup,Magic Number
+irccloud,com.irccloud.android.test,Screenshots,testTakeScreenshotsPortrait,Empty catch clause
+irccloud,com.irccloud.android.test,Screenshots,testTakeScreenshotsPortrait,Magic Number
+irccloud,com.irccloud.android.test,Screenshots,testTakeScreenshotsLandscape,Empty catch clause
+irccloud,com.irccloud.android.test,Screenshots,testTakeScreenshotsLandscape,Magic Number
